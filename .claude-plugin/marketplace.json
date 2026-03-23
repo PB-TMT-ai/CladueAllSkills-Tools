@@ -1,0 +1,49 @@
+{
+  "name": "everything-claude-code",
+  "displayName": "Everything Claude Code — All Skills & Tools",
+  "version": "1.9.0",
+  "description": "Complete AI agent harness performance system. 119 skills, 28 agents, 60 commands, hooks, rules, and MCP configs for Claude Code, Codex, Cursor, and OpenCode.",
+  "author": "PB-TMT-ai",
+  "source": {
+    "source": "github",
+    "repo": "PB-TMT-ai/CladueAllSkills-Tools"
+  },
+  "categories": [
+    "productivity",
+    "development",
+    "security",
+    "testing",
+    "devops"
+  ],
+  "tags": [
+    "skills",
+    "agents",
+    "hooks",
+    "commands",
+    "rules",
+    "mcp",
+    "tdd",
+    "security",
+    "continuous-learning",
+    "python",
+    "typescript",
+    "golang",
+    "rust",
+    "kotlin",
+    "java",
+    "swift",
+    "django",
+    "laravel",
+    "springboot",
+    "react",
+    "nextjs"
+  ],
+  "features": {
+    "agents": 28,
+    "commands": 60,
+    "skills": 119,
+    "hookEvents": 7,
+    "languages": 12,
+    "mcpServers": 20
+  }
+}
