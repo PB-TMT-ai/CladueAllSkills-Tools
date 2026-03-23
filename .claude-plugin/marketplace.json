@@ -1,49 +1,55 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "everything-claude-code",
-  "displayName": "Everything Claude Code — All Skills & Tools",
-  "version": "1.9.0",
-  "description": "Complete AI agent harness performance system. 119 skills, 28 agents, 60 commands, hooks, rules, and MCP configs for Claude Code, Codex, Cursor, and OpenCode.",
-  "author": "PB-TMT-ai",
-  "source": {
-    "source": "github",
-    "repo": "PB-TMT-ai/CladueAllSkills-Tools"
+  "description": "Complete AI agent harness performance system — 119 skills, 28 agents, 60 commands, hooks, rules, and MCP configs for Claude Code.",
+  "owner": {
+    "name": "PB-TMT-ai",
+    "email": "siddharth.jain@jsw.in"
   },
-  "categories": [
-    "productivity",
-    "development",
-    "security",
-    "testing",
-    "devops"
-  ],
-  "tags": [
-    "skills",
-    "agents",
-    "hooks",
-    "commands",
-    "rules",
-    "mcp",
-    "tdd",
-    "security",
-    "continuous-learning",
-    "python",
-    "typescript",
-    "golang",
-    "rust",
-    "kotlin",
-    "java",
-    "swift",
-    "django",
-    "laravel",
-    "springboot",
-    "react",
-    "nextjs"
-  ],
-  "features": {
-    "agents": 28,
-    "commands": 60,
-    "skills": 119,
-    "hookEvents": 7,
-    "languages": 12,
-    "mcpServers": 20
-  }
+  "metadata": {
+    "description": "Complete AI agent harness performance system from everything-claude-code"
+  },
+  "plugins": [
+    {
+      "name": "everything-claude-code",
+      "source": "./",
+      "description": "119 skills, 28 agents, 60 commands, and production-ready hooks for TDD, security scanning, code review, continuous learning, and 12 language ecosystems.",
+      "version": "1.9.0",
+      "author": {
+        "name": "PB-TMT-ai (forked from Affaan Mustafa)",
+        "email": "siddharth.jain@jsw.in"
+      },
+      "homepage": "https://github.com/PB-TMT-ai/CladueAllSkills-Tools",
+      "repository": "https://github.com/PB-TMT-ai/CladueAllSkills-Tools",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices",
+        "python",
+        "typescript",
+        "golang",
+        "rust",
+        "kotlin",
+        "java"
+      ],
+      "strict": false
+    }
+  ]
 }
