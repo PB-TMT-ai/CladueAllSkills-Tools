@@ -101,3 +101,8 @@ System Volume Information/
 XORXOR*
 ZZZZZ*
 zHOzaaTW*
+
+# Large files (GitHub 100MB limit)
+Comworld/
+*.exe
+
