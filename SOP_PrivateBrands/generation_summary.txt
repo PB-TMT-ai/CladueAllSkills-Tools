@@ -1,0 +1,9 @@
+Document generated successfully!
+Output file: D:\SOP_PrivateBrands\JSW_OrderLogging_V13_Transformed.docx
+
+Summary:
+- Total activities: 15
+- Pre Order: 3 activities
+- Order Journey: 4 activities
+- Post Delivery: 8 activities
+- Format: 3-column table (Broader Order Journey | Activity | Team)

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(find:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(antiword:*)",
+      "Bash(pdftotext:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(python3:*)",
+      "Bash(findstr:*)",
+      "Bash(tesseract:*)",
+      "Bash(pdftoppm:*)",
+      "Bash(pip show:*)",
+      "Bash(conda list:*)",
+      "Bash(pip install:*)",
+      "Bash(ls:*)",
+      "Bash(.txt$ \")",
+      "Bash(grep -r \"Construct\\\\|Reference\" tools/*.py --include=\"*.py\")"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(xargs ls -lh)",
+      "Bash(/dev/null -iname \"*\")",
+      "Bash(node -e \":*)",
+      "Bash(where node)",
+      "Bash(where python)"
+    ]
+  }
+}

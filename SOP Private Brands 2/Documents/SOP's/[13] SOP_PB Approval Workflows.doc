@@ -1,0 +1,723 @@
+Date: Thu, 19 Feb 2026 11:23:21 +0000 (UTC)
+Message-ID: <1063628362.41.1771500201930@a42d83aa6127>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1207457730.1771500201930"
+
+------=_Part_40_1207457730.1771500201930
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Documentation of Approval Workflows that are in PB</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Documentation of Approval Workflows that are in PB</h1>
+    <div class=3D"Section1">
+        <div class=3D"confluence-information-macro confluence-information-m=
+acro-information">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"651baaf6-cd81-44e2-892b-fd715d014e5c">This document is creat=
+ed to list all the approval workflows that are in private brands opportunit=
+y workflow</p>
+</div>
+</div>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1771500201917 {padding: 0px;}
+div.rbtoc1771500201917 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1771500201917 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1771500201917">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#DocumentationofApprovalWorkflowsthatareinPB-Transactionalap=
+provalworkflow">Transactional approval workflow</a></li>
+<li><a href=3D"#DocumentationofApprovalWorkflowsthatareinPB-Non-transaction=
+alapprovalworkflows">Non-transactional approval workflows</a></li>
+</ul>
+</div>
+<h3 local-id=3D"42389205-e28b-43fc-9cb1-1340f1b85f4f" id=3D"Documentationof=
+ApprovalWorkflowsthatareinPB-Transactionalapprovalworkflow">Transactional a=
+pproval workflow</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1462" data-layout=3D"default" data-local-id=3D"5=
+fa9a353-6757-430c-a944-e1c00998d1c3" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 273.0px;">
+<col style=3D"width: 291.0px;">
+<col style=3D"width: 213.0px;">
+<col style=3D"width: 209.0px;">
+<col style=3D"width: 303.0px;">
+<col style=3D"width: 173.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"1a8e2aa9-1818-4020-8032-d50c517c903b">
+<th data-local-id=3D"2d77981c-637c-4de6-b316-35ef6062594b" class=3D"conflue=
+nceTh">
+<p local-id=3D"f694abf1-b247-4d51-b27e-83c3e52b02d9"><strong>Approval flow =
+name</strong></p></th>
+<th data-local-id=3D"60070aaa-2c22-4df5-a081-3c686785421c" class=3D"conflue=
+nceTh">
+<p local-id=3D"a68c2735-d52a-4e5d-983f-c23b482f6863"><strong>Use case - why=
+ this approval flow was created</strong></p></th>
+<th data-local-id=3D"dc589216-ead9-4a74-b86f-061b87cfdd61" class=3D"conflue=
+nceTh">
+<p local-id=3D"efb71693-dab8-491c-b43c-f7b0f1d8ad36"><strong>Who initiates =
+approval</strong></p></th>
+<th data-local-id=3D"70e9a681-5d81-4031-a740-cfdfe327dcae" class=3D"conflue=
+nceTh">
+<p local-id=3D"11256b69-c8a7-4040-90c6-542b4ef5b1b2"><strong>Who all approv=
+es</strong></p></th>
+<th data-local-id=3D"d0da8bf3-4e30-4d7b-b2da-fff13184182c" class=3D"conflue=
+nceTh">
+<p local-id=3D"d3444687-8996-41a5-af16-1a4120f067e6"><strong>What happens i=
+n case of rejection at any step</strong></p></th>
+<th data-local-id=3D"4b6df845-9eb4-41cc-b0eb-f59032e7cb9d" class=3D"conflue=
+nceTh">
+<p local-id=3D"018b8c1a-206e-491f-9a70-b119700adf57"><strong>Any additional=
+ information</strong></p></th>
+</tr>
+<tr data-local-id=3D"1cd71b9a-9806-46b2-8e7c-b64652a5aed1">
+<td data-local-id=3D"6e98117c-d0b5-4aa7-9327-8e985d44b1b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"c6020615-f4df-4a79-9ce0-83256a933aee">Cloning approval</p></=
+td>
+<td data-local-id=3D"367283ca-1da4-4bdf-9c81-c75963945ea8" class=3D"conflue=
+nceTd">
+<p local-id=3D"04532548-2d25-4b15-aecb-79a73466eb6a">If the ship-to locatio=
+n or any other details is required to be changed for a =E2=80=98Success=E2=
+=80=99 opportunity. And the new opportunity, is eligible for CN/DN based on=
+ the price difference</p></td>
+<td data-local-id=3D"4ec40593-4d3a-4b01-988f-04e11ca3d2bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"e61597cd-ec5c-42f6-9a3e-29fdc27d1489">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"513ace37-be0d-4f32-aca2-e7902e017127" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f77b1ad-470b-47b9-bc8d-b57f749bdd01">L1: Regional sales man=
+ager</p>
+<p local-id=3D"c0a52448-e0d6-47bd-bf84-8b3e9532961a">L2: Sales head</p></td=
+>
+<td data-local-id=3D"27bacd0d-27fb-4b7d-bd58-f16ce6c9c988" class=3D"conflue=
+nceTd">
+<p local-id=3D"35ad2f27-0723-4dcd-a400-99f80a9456cc">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and becomes non-editable</p></td>
+<td data-local-id=3D"0dfb73d4-3bfa-4b1a-8313-a6d5fbd3a89b" class=3D"conflue=
+nceTd">
+<p local-id=3D"17a86c77-6825-457d-8bf1-ff7a62203180"></p></td>
+</tr>
+<tr data-local-id=3D"d462ec77-3330-4067-af99-0700a77a9624">
+<td data-local-id=3D"c8901cbc-b730-403c-a1e2-2505ec196fa8" class=3D"conflue=
+nceTd">
+<p local-id=3D"0ba861db-c896-42a8-a26b-951a56621012">Delivery Instruction a=
+pproval</p></td>
+<td data-local-id=3D"08ff5ba9-6d3e-4fe3-b204-495d0c0b15d7" class=3D"conflue=
+nceTd">
+<p local-id=3D"befc6c0c-c64b-4fd3-b6b8-d9518668687d">If distributor ask for=
+ =E2=80=98Self-pick=E2=80=99, instead of getting it shipped via JSW One</p>=
+</td>
+<td data-local-id=3D"e4928f68-37a1-4117-9682-74b66c84bcf6" class=3D"conflue=
+nceTd">
+<p local-id=3D"f3614f98-6195-4754-b900-ce1939f5104e">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"9f7f5cb5-1aaa-40a3-aaab-ba4f1d4a0311" class=3D"conflue=
+nceTd">
+<p local-id=3D"58253a9c-c654-457e-aa2c-0f00458b207c">L1: Sales head</p>
+<p local-id=3D"010686e2-d731-4a95-a62b-1c83fe8c2a28">L2: Business head</p><=
+/td>
+<td data-local-id=3D"de7c10ef-f12b-48be-9a5a-df966d67fe92" class=3D"conflue=
+nceTd">
+<p local-id=3D"a94e564d-c74a-444d-bdaa-53b5189e847a">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and becomes non-editable</p></td>
+<td data-local-id=3D"ab614974-eef1-4824-b0a0-a2971132c5fa" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb96a182-adf4-4cf1-97a1-49d052467865"></p></td>
+</tr>
+<tr data-local-id=3D"e7e222a1-65b4-4c38-a413-d109b381c855">
+<td data-local-id=3D"d8e2738e-45c2-4a67-9836-db644efdd5c0" class=3D"conflue=
+nceTd">
+<p local-id=3D"4c348a1a-5e8c-49d6-a172-1b74753d9cb5">Sales price breach app=
+roval - Lower limit</p></td>
+<td data-local-id=3D"b8680576-e442-49a8-a41d-2106e3164f62" class=3D"conflue=
+nceTd">
+<p local-id=3D"d5ab5c81-65ed-4867-8d03-79105c8eebbb">If the distributor wan=
+ts to sell TMT on price that is lower then the =E2=80=98distributor list pr=
+ice=E2=80=99 or recommended retailer price</p></td>
+<td data-local-id=3D"9b736362-ebcc-46f4-983f-a97883494478" class=3D"conflue=
+nceTd">
+<p local-id=3D"9c8a91a9-12ae-46ef-a185-3a820dc87ea9">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"41f54e74-73f1-4a0c-a8c5-de7aebe8616f" class=3D"conflue=
+nceTd">
+<p local-id=3D"06c7ebbb-6807-4ecb-9d66-b6737d192286">L1: Regional sales man=
+ager</p>
+<p local-id=3D"717f34f8-e9c3-4c6a-be02-14e3acc92cf8">L2: Product marketing =
+head</p>
+<p local-id=3D"76899e79-63e7-4465-b9fe-91359459020f">L3: Business head</p><=
+/td>
+<td data-local-id=3D"8d7dc174-6d1f-4f30-b5a0-2df50e1a957e" class=3D"conflue=
+nceTd">
+<p local-id=3D"af2dfe83-8a9b-4874-ba93-c0a01544cd73">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and becomes non-editable</p></td>
+<td data-local-id=3D"6b2a33c5-f0f3-441f-a062-16affbf1b9a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"a31e1f62-ac95-4127-9beb-803fef680713"></p></td>
+</tr>
+<tr data-local-id=3D"eb6065da-bf79-41c4-afad-f65cb2b3c15f">
+<td data-local-id=3D"8b01ca07-5725-41bd-a78e-7ab60b3b2ccf" class=3D"conflue=
+nceTd">
+<p local-id=3D"a88f811e-3a0c-4a89-a7d8-911d722b46f3">Sales price breach app=
+roval - Upper limit</p></td>
+<td data-local-id=3D"99c51266-2dbd-4d89-ba75-0c03efe16407" class=3D"conflue=
+nceTd">
+<p local-id=3D"a257c7ad-f1f7-48f4-9079-6f55b22635fe">If the distributor wan=
+ts to sell TMT on price that is higher then the =E2=80=98upper limit of the=
+ recommended retailer price=E2=80=99</p></td>
+<td data-local-id=3D"5ebc9a60-3f1d-49d4-9d7d-7d26da9b5f7e" class=3D"conflue=
+nceTd">
+<p local-id=3D"4f9c9a4e-b02f-40d5-bc0f-545d61c5fcfa">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"31cf467e-adf1-4e3e-88b3-b171689a192e" class=3D"conflue=
+nceTd">
+<p local-id=3D"44aa4e82-ba07-4607-8dd0-04d38b79a01f">L1: Regional sales man=
+ager</p></td>
+<td data-local-id=3D"ee0932ee-f1be-4f7c-b7e4-7d1332c68780" class=3D"conflue=
+nceTd">
+<p local-id=3D"3caef0c5-c079-46f2-b7fc-130bec2f4583">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and becomes non-editable</p></td>
+<td data-local-id=3D"3a058af1-663f-4a67-b4c9-490de4b46d71" class=3D"conflue=
+nceTd">
+<p local-id=3D"525a0bef-8599-44a2-b53f-6c92e60fc54c"></p></td>
+</tr>
+<tr data-local-id=3D"dcdd37bf-b940-47ba-aeac-09e7773a368f">
+<td data-local-id=3D"03df351b-fc1d-4d0f-9d06-5863b019d957" class=3D"conflue=
+nceTd">
+<p local-id=3D"3fa60cdc-c890-4dd9-956c-8444dbd3fe3a">Freight approval</p></=
+td>
+<td data-local-id=3D"e2bd87fb-2f6e-45ce-b898-8a3396dc5f8e" class=3D"conflue=
+nceTd">
+<p local-id=3D"c436a195-dea2-4778-b067-682514be1895">When the price type is=
+ =E2=80=98ex-works=E2=80=99 and the material is to be =E2=80=98Delivered by=
+ JSW One=E2=80=99 . <br><br>
+Frieght needs to be approved before order can be punched</p></td>
+<td data-local-id=3D"91b0e120-ee9c-420a-bfe4-e721d9e9c37e" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8093e99-e5e7-4dc3-8d3c-4c576f8ec6c3">PB Operations team</p>=
+</td>
+<td data-local-id=3D"2b44b875-6e39-4090-87ad-de8cedb53271" class=3D"conflue=
+nceTd">
+<p local-id=3D"1b0f65eb-f1b4-48d4-9eb6-8ede85915f69">L1: Distributor</p></t=
+d>
+<td data-local-id=3D"7f7fe7fc-8ad9-4d1c-a3b7-57a3d3d4257e" class=3D"conflue=
+nceTd">
+<p local-id=3D"026b2960-9b1d-4de3-b80d-82dd2b0e0ce5">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and distributor can edit it and re-s=
+ubmit it</p></td>
+<td data-local-id=3D"4607e74f-bb13-4a95-b225-707817af794f" class=3D"conflue=
+nceTd">
+<p local-id=3D"91d00e46-8ad8-4299-bf68-594784d2f739"></p></td>
+</tr>
+<tr data-local-id=3D"f678a31f-daf1-4090-8fc7-da7ee15464ff">
+<td data-local-id=3D"ee646560-411e-4a84-bf61-46ef6e66dbc4" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba0f1abb-d778-4e9a-b6c5-6a1e179432d7">Credit approval</p></t=
+d>
+<td data-local-id=3D"e185e70b-303c-4fd7-a880-6a26ff4ab0a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"06e5fceb-c762-40e9-853e-ac80e29ebbfd">When the payment type =
+is selected ad =E2=80=98Credit=E2=80=99</p></td>
+<td data-local-id=3D"a232807d-cebb-44a8-b214-df75e1c1873d" class=3D"conflue=
+nceTd">
+<p local-id=3D"a40b6da5-4e3a-4842-b27a-9330230b424e">Only one user- Kunal J=
+ani</p></td>
+<td data-local-id=3D"cef8c089-2d25-4d00-96e5-6b87f311a7b5" class=3D"conflue=
+nceTd">
+<p local-id=3D"58a86c6b-0f71-439a-a270-7fa1eee99349">Auto-approved</p></td>
+<td data-local-id=3D"b2968cbc-c64a-43d7-96f6-20942b13ef6d" class=3D"conflue=
+nceTd">
+<p local-id=3D"9534f2a1-be99-4787-9e9c-3de13269e989">Since, only =E2=80=98c=
+hannel finance=E2=80=99 is only credit program. It gets =E2=80=98Auto-appro=
+ves=E2=80=99 and thier is no rejection</p></td>
+<td data-local-id=3D"cec76550-52e8-4197-abb5-724c24c69cce" class=3D"conflue=
+nceTd">
+<p local-id=3D"8a3499ee-3488-4e40-82a6-e6234be417fa"></p></td>
+</tr>
+<tr data-local-id=3D"a7683d22-5c5a-4204-8fc4-f18c70e0c4c3">
+<td data-local-id=3D"d0fac081-bcac-4168-a276-f9f51dd6153d" class=3D"conflue=
+nceTd">
+<p local-id=3D"435f000c-6b55-409e-90d3-ffd86336b069">Price validity approva=
+l</p></td>
+<td data-local-id=3D"61a9003a-c18d-477f-b8a9-1a94afbd6306" class=3D"conflue=
+nceTd">
+<p local-id=3D"6e39e545-f8c2-4991-9b3d-7c04eb0412da">When the price validit=
+y is expired</p></td>
+<td data-local-id=3D"cdd6725d-228d-4ef8-82ec-1ad7d4382c57" class=3D"conflue=
+nceTd">
+<p local-id=3D"742ce6f8-adc4-412e-8e25-ddf625805201">PB Operations user</p>=
+</td>
+<td data-local-id=3D"455d5ca6-c4e6-4fed-85af-645648278d07" class=3D"conflue=
+nceTd">
+<p local-id=3D"b9ffce2f-c16b-4e3f-a2c8-98358ecb5397">L1: Product marketing =
+head</p></td>
+<td data-local-id=3D"1ae0e303-4e29-4d92-a9aa-54010239ae26" class=3D"conflue=
+nceTd">
+<p local-id=3D"ac31ee76-6a29-4b1e-87af-3b099406fa7a">No change in the Oppor=
+tunity stage.</p>
+<p local-id=3D"4e38998f-5bcf-4abf-b7a2-a23926993336">If rejected, =E2=80=98=
+old rate valid till=E2=80=99 date is retained on the opportunity</p></td>
+<td data-local-id=3D"f3e8e4b6-d3c7-4588-befb-c8d885e182d3" class=3D"conflue=
+nceTd">
+<p local-id=3D"35f71aa9-bf5b-4b0e-bd75-46956c889813"></p></td>
+</tr>
+<tr data-local-id=3D"c6f2ec49-aca8-44cb-9f10-380e5c764658">
+<td data-local-id=3D"88befff9-d63e-4486-811e-7fcdf81321cb" class=3D"conflue=
+nceTd">
+<p local-id=3D"4964677c-a2b0-46a4-9ef0-bddaef324354">Price approval for Pro=
+ject opportunity</p></td>
+<td data-local-id=3D"e4922c71-aa52-4861-8238-02a3322c6292" class=3D"conflue=
+nceTd">
+<p local-id=3D"ae212da7-d458-4a24-9e31-6c7647bc37c9">When the Retail NOD &a=
+mp; Avg. Procurement price area added on a project opportunity</p></td>
+<td data-local-id=3D"738704ef-46d8-447c-93d5-fb26f89ccad8" class=3D"conflue=
+nceTd">
+<p local-id=3D"ddf06b5f-bec1-464f-8561-4e78baff5b42">Kunal Jani or Supriya =
+Sharan or Hritik Kumar</p></td>
+<td data-local-id=3D"dab44411-efa7-4a7f-8eb3-bcc9439eb977" class=3D"conflue=
+nceTd">
+<p local-id=3D"59f5ecdf-ab65-409d-8645-5d1a673c710d">L1: Product marketing =
+head<br>
+L2: Business head</p></td>
+<td data-local-id=3D"5fcad1a6-9481-4484-a605-bafaad1e9c67" class=3D"conflue=
+nceTd">
+<p local-id=3D"11cb450e-cd17-4940-a1dd-3f933d269a51">Opportunity is moved t=
+o the =E2=80=98Rejected=E2=80=99 stage and Kunal Jani/Supriya can edit it a=
+nd re-submit</p></td>
+<td data-local-id=3D"cf3e1e6b-7360-454e-8d92-040979806d4f" class=3D"conflue=
+nceTd">
+<p local-id=3D"18567700-6850-444b-adcb-7fc1bdc48166"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"8363152f-c44c-4c5c-95ab-419d35c7c8fd" id=3D"Documentationof=
+ApprovalWorkflowsthatareinPB-Non-transactionalapprovalworkflows">Non-transa=
+ctional approval workflows</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1452" data-layout=3D"default" data-local-id=3D"f=
+00183d2-31bf-46c0-b5a0-615cbc8a0f3b" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 267.0px;">
+<col style=3D"width: 291.0px;">
+<col style=3D"width: 211.0px;">
+<col style=3D"width: 214.0px;">
+<col style=3D"width: 308.0px;">
+<col style=3D"width: 155.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"bd99a333-b289-4a04-8b0c-9c7b71362837">
+<th data-local-id=3D"7bbd1ea2-2874-4437-bf9d-91e381b3e63d" class=3D"conflue=
+nceTh">
+<p local-id=3D"6f320b12-aad9-4e60-b159-ad64df174d7d"><strong>Approval flow =
+name</strong></p></th>
+<th data-local-id=3D"94c9aec1-ec41-4c3f-85bf-56a7c51fdea4" class=3D"conflue=
+nceTh">
+<p local-id=3D"d6a6c5d9-1abf-4987-a6eb-b1445a6568ee"><strong>Use case - why=
+ this approval flow was created</strong></p></th>
+<th data-local-id=3D"b3cef049-785d-4db2-ba62-1c865a7309b3" class=3D"conflue=
+nceTh">
+<p local-id=3D"6a3cc848-eb09-4fe8-a89a-674cde92aa55"><strong>Who initiates =
+approval</strong></p></th>
+<th data-local-id=3D"270e45c7-9b21-4463-8849-12a499599f90" class=3D"conflue=
+nceTh">
+<p local-id=3D"59a89e83-d461-4185-a64c-1722c279dfbd"><strong>Who all approv=
+es</strong></p></th>
+<th data-local-id=3D"7ec0ec06-cc11-4780-85b3-b9b764b21a43" class=3D"conflue=
+nceTh">
+<p local-id=3D"271758a8-ff53-4815-ac4d-cb6f1eed6366"><strong>What happens i=
+n case of rejection at any step</strong></p></th>
+<th data-local-id=3D"d489123b-4893-4710-aa23-4b66a32fecf5" class=3D"conflue=
+nceTh">
+<p local-id=3D"738daafa-40f7-412a-9912-3e517a96d6a9"><strong>Any additional=
+ information</strong></p></th>
+</tr>
+<tr data-local-id=3D"b9fda63d-b815-41fe-9c95-db033bf358b7">
+<td data-local-id=3D"3e379e7f-9e01-45a3-847e-7121e1cedd2a" class=3D"conflue=
+nceTd">
+<p local-id=3D"c15cf64a-c7cc-4f58-9415-98e760938416">Add new retailer from =
+TMT portal or SFDC</p></td>
+<td data-local-id=3D"35b21764-28f2-4bc0-ae54-a3be831ac029" class=3D"conflue=
+nceTd">
+<p local-id=3D"986ac3e2-5708-4135-99d2-596089859b9c">To add new retailer un=
+der the distributor</p></td>
+<td data-local-id=3D"437ca458-89cc-4499-a355-55e7d7fea215" class=3D"conflue=
+nceTd">
+<p local-id=3D"f90a543b-9501-4b9d-8f59-dc356e48788d">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"efbb81d5-5615-41bb-8b9c-b46400f9237e" class=3D"conflue=
+nceTd">
+<p local-id=3D"62adfbbb-103e-46b4-abd8-c579e8880b67">L1: Account owner of d=
+istributor</p></td>
+<td data-local-id=3D"6427f1b8-ae98-445c-8e51-f44df904bf0d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f16ce752-4bbd-42b8-8e4f-ed1881819b52">Retailer, is not added=
+/mapped under the distributor</p></td>
+<td data-local-id=3D"1e6502eb-ff67-45a0-a331-77392ccfb001" class=3D"conflue=
+nceTd">
+<p local-id=3D"c491726a-b3f1-44ce-bf5e-b7454b68a45b"></p></td>
+</tr>
+<tr data-local-id=3D"ef976bbe-a6f9-480d-8c8b-af018efe817e">
+<td data-local-id=3D"9b52d428-f7a1-43e1-a505-91faf93b8dae" class=3D"conflue=
+nceTd">
+<p local-id=3D"b181d2c6-f574-41a4-839b-6ae194fb04a6">
+<del>Add new address for a retailer from TMT portal</del></p></td>
+<td data-local-id=3D"8a35582b-1b64-489e-b0a6-98088857a81e" class=3D"conflue=
+nceTd">
+<p local-id=3D"bee32665-73ef-47b0-9a3b-91c83356653e">
+<del>To add new address on a retailer</del></p></td>
+<td data-local-id=3D"b276e338-c4d8-4f87-8da6-09ab289bfdd1" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6ccf645-19e9-4a40-9a95-394f01551033">
+<del>Distributor</del></p></td>
+<td data-local-id=3D"8fc3470a-ceab-4b66-959b-a2a119c05f3e" class=3D"conflue=
+nceTd">
+<p local-id=3D"dea07c08-9c48-4f39-9776-304fb16fa30c">
+<del>L1: Account owner of distributor</del></p></td>
+<td data-local-id=3D"1d66ef4b-2e05-4898-93ed-38611724c6f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"10904da7-04d1-47b2-a80a-690073dbdbdc">
+<del>Address is not added under the retailer account</del></p></td>
+<td data-local-id=3D"9ea8ff00-8e26-4501-ae71-970eb68b89e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"9893be4b-e143-4cb3-a143-31afd3165422">Discarded</p></td>
+</tr>
+<tr data-local-id=3D"3b87b5ca-820e-4659-b597-b87fbdb9b8b8">
+<td data-local-id=3D"e38b187f-a481-4206-af7b-dec49bed562f" class=3D"conflue=
+nceTd">
+<p local-id=3D"9a5b8496-556b-49a6-8078-f62e3b75727d">Add new location for s=
+elf from portal or SFDC</p></td>
+<td data-local-id=3D"c38b9232-c693-428e-9b07-a15468585bf3" class=3D"conflue=
+nceTd">
+<p local-id=3D"b54b96cb-b752-4806-a90e-5b93d19b13c8">To add new location un=
+der the distributor</p></td>
+<td data-local-id=3D"5781e055-2012-4306-8e0b-e6e0cdd1195c" class=3D"conflue=
+nceTd">
+<p local-id=3D"cef336c1-902f-4b42-911f-557efefaa379">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"f815ad17-7a12-4936-acd8-5e70fdc64cd7" class=3D"conflue=
+nceTd">
+<ul local-id=3D"3436b921-2b2f-4d8e-aede-6719f6e2dc6e">
+<li local-id=3D"6d45bd66-6bc8-4de5-90bd-76d8dd4cdb14">
+<p local-id=3D"28615379-253d-4b30-a523-e7431aa31b51">Site: Auto-approved</p=
+></li>
+<li local-id=3D"9a8639f8-0b1a-473f-92b4-3beef2dd4ff7">
+<p local-id=3D"2868beff-e536-41b3-bc0a-1d3b40081080">Warehouse:</p>
+<ul local-id=3D"baef5f75-6e66-4dd4-9196-597e4f55fade">
+<li local-id=3D"4ed5368e-1f01-495c-a461-1ca61a254a48">
+<p local-id=3D"438f77b6-f05b-4125-8868-927c843e87b8">L1: RSM</p></li>
+<li local-id=3D"53d5d6be-ae13-492f-963c-c77023bff1ba">
+<p local-id=3D"df760573-8bbe-4ba8-a695-cc7f87e78119">L2: SH</p></li>
+</ul></li>
+</ul></td>
+<td data-local-id=3D"46f576df-5340-4e2a-8799-d30debe35591" class=3D"conflue=
+nceTd">
+<p local-id=3D"a8782b1e-9b08-4b4d-82c6-30da448830f4">Location and its addre=
+ss is not available for opportunity creation</p></td>
+<td data-local-id=3D"a7197833-0d30-4932-b086-945b13d1f516" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4bb6173-8a11-4ec7-b3dd-8a2df7124889"></p></td>
+</tr>
+<tr data-local-id=3D"d9a77bfe-efb3-4004-adb7-6f8d97895bb6">
+<td data-local-id=3D"829d9a14-41f9-4164-a9ed-c00b4580b686" class=3D"conflue=
+nceTd">
+<p local-id=3D"09adea27-8203-4b01-93f9-31dc9315882b">Add new location for r=
+etailer from portal or SFDC</p></td>
+<td data-local-id=3D"73efd6d2-242f-445f-b86e-7351ddf725ca" class=3D"conflue=
+nceTd">
+<p local-id=3D"45230b8e-941f-4c29-bdc4-b528fca4bc4d">To add new location un=
+der the retailer</p></td>
+<td data-local-id=3D"7089b5c0-272a-402e-b4a3-dc982a420f19" class=3D"conflue=
+nceTd">
+<p local-id=3D"df58665a-c4ed-4110-85e5-7c0ef474dea8">Distributor / Salesper=
+son</p></td>
+<td data-local-id=3D"50eb5090-630f-4865-942b-55610dfc2f66" class=3D"conflue=
+nceTd">
+<ul local-id=3D"903ef8a1-2b86-4c69-bc93-733a342d1604">
+<li local-id=3D"ff47a037-4306-4bcc-a543-15e2f94b66ca">
+<p local-id=3D"b5a22e60-8775-4dc5-af76-8a7757c2d793">Site: Auto-approved</p=
+></li>
+<li local-id=3D"8bd3b6d2-95ca-402f-ac6b-9dfaafc5f618">
+<p local-id=3D"6400dcde-b73a-4990-8637-8faa226bd066">Shop:</p>
+<ul local-id=3D"b7ea9a63-9a4f-4332-b9c1-a4c906250b49">
+<li local-id=3D"e16d285a-e9de-4f23-bed3-9bbb1fa36992">
+<p local-id=3D"92f73c5f-09ec-4254-b39e-cc63bdf0b8a5">L1: RSM</p></li>
+</ul></li>
+</ul></td>
+<td data-local-id=3D"006a5ca4-2922-46f6-b90d-34640d621789" class=3D"conflue=
+nceTd">
+<p local-id=3D"9ea12d08-2822-4460-8417-f2cdfb1e7553">Location and its addre=
+ss is not available for opportunity creation</p></td>
+<td data-local-id=3D"6d94f937-0549-4af2-b12b-f2c34f5aaff9" class=3D"conflue=
+nceTd">
+<p local-id=3D"69d3a1b2-75e2-4532-846c-39e88ec066e3"></p></td>
+</tr>
+<tr data-local-id=3D"abfb0707-3706-4b83-b6a2-7ec43fb41a22">
+<td data-local-id=3D"aaeba635-8fed-4588-af47-4533881b405a" class=3D"conflue=
+nceTd">
+<p local-id=3D"8c0191b0-4de6-411d-bd8e-077638a9ee08">Add new location from =
+JSW One App by retailer</p></td>
+<td data-local-id=3D"6dc4c851-b18d-48dd-90fa-53a2ee28b896" class=3D"conflue=
+nceTd">
+<p local-id=3D"0a22cc52-80a3-41bb-9937-37ff53a771ad">To add new location un=
+der retailer</p></td>
+<td data-local-id=3D"4d294eb2-fa45-426f-be0e-75e96b9347c2" class=3D"conflue=
+nceTd">
+<p local-id=3D"2466e50c-511d-46a4-a86b-793064daabd7">Retailer</p></td>
+<td data-local-id=3D"389574a5-81ba-45ea-9f80-a34401f6ebc5" class=3D"conflue=
+nceTd">
+<ul local-id=3D"9e187b09-1e0d-4532-a6d3-cba54b570052">
+<li local-id=3D"40ab848a-b39f-481f-88ba-4373648c2e3f">
+<p local-id=3D"4702439e-ff70-4728-87bf-335fd1a944f7">Site:</p>
+<ul local-id=3D"048d24a0-4146-4076-84c9-a7946f0b4abb">
+<li local-id=3D"f696cfdf-3e6a-439e-bd09-38985f2e21be">
+<p local-id=3D"77cd738d-9413-4784-919e-ccd9d747d4e1">L1: RSM</p></li>
+</ul></li>
+<li local-id=3D"896e4da9-1df2-44d9-bd32-b38c7094103b">
+<p local-id=3D"cf0b41da-bced-4fde-9790-7017b3280de2">Shop:</p>
+<ul local-id=3D"c3b4d430-cc24-4d50-a0a6-8499d290a1c6">
+<li local-id=3D"3ce56201-6737-4b62-82c3-cbd7d757f964">
+<p local-id=3D"05911ddf-3646-48b7-bfe7-a8908f1d7cb4">L1: SM</p></li>
+</ul></li>
+</ul></td>
+<td data-local-id=3D"bccbd9a7-8523-4112-b8a7-be9f7dfcdeef" class=3D"conflue=
+nceTd">
+<p local-id=3D"e79df0ae-40f0-4b9a-abf5-e69db3083fcd">Location and its addre=
+ss is not available for opportunity creation</p></td>
+<td data-local-id=3D"15d964de-e81e-4110-868b-643e31600496" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e394ac5-1f18-4468-a6aa-288ee1cb7994"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_40_1207457730.1771500201930--

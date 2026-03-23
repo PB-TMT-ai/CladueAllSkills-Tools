@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(unzip:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell -NoProfile -Command \"\nAdd-Type -AssemblyName System.IO.Compression\n$zip = [System.IO.Compression.ZipFile]::OpenRead\\(''JSWOrderLogging_v4_COMPLETE_FINAL_1.docx''\\)\n$entry = $zip.Entries | Where-Object { $_.Name -eq ''document.xml'' }\n$reader = New-Object System.IO.StreamReader\\($entry.Open\\(\\)\\)\n$content = $reader.ReadToEnd\\(\\)\n$reader.Close\\(\\)\n$zip.Dispose\\(\\)\n$content | Select-Object -First 100\n\")",
+      "Bash(printf:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(py:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(powershell.exe -Command \"Get-Item ''D:\\\\SOP_PrivateBrands\\\\Documents\\\\JSWOrderLogging_V8_UPDATED.docx'' | Select-Object FullName, Length, LastWriteTime\")",
+      "Bash(powershell -Command \"Add-Type -AssemblyName DocumentFormat.OpenXml; [xml]$doc = New-Object System.Xml.XmlDocument; $zip = [System.IO.Compression.ZipFile]::OpenRead\\(''JSWOrderLogging_V9_MERGED.docx''\\); $stream = $zip.Entries | where {$_Name -eq ''document.xml''} | % {$_Open\\(\\)}; $doc.Load\\($stream\\); $stream.Close\\(\\); $zip.Close\\(\\); $doc.OuterXml\")",
+      "Bash(python3:*)",
+      "Bash(copy:*)",
+      "Bash(where:*)",
+      "Bash(del \"D:\\\\SOP_PrivateBrands\\\\validate_v13.py\")",
+      "Bash(iconv:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(pip:*)"
+    ]
+  }
+}

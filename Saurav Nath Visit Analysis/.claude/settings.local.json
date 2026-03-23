@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python visit_analysis.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(iconv:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(powershell \"\\(Get-Item ''Saurav_Nath_Visit_Analysis_Nov25_Feb26.xlsx''\\).Length / 1KB\")",
+      "Bash(del \"C:\\\\Users\\\\2750834\\\\.claude\\\\plans\\\\formula-examples.md\")",
+      "Bash(ls:*)",
+      "Bash(pip show:*)"
+    ]
+  }
+}

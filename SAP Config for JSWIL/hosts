@@ -1,0 +1,54 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+
+##################################################
+############ ECC PRODUCTION SYSTEM ###############
+##################################################
+10.19.4.50            jepvci.jsw.in       jepvci
+10.19.4.60            JSWECCPRD
+10.19.4.61            JSWECCPRD
+10.19.4.62            JSWECCPRD
+10.19.4.63            JSWECCPRD
+##################################################
+############ BW PRODUCTION SYSTEM ################
+##################################################
+10.19.4.57            jwpvci.jsw.in      jwpvci
+10.19.4.57            JSWBWPRD
+10.19.4.67            JSWBWPRD
+##################################################
+############ PI PRODUCTION SYSTEM ################
+##################################################
+10.19.4.55            jppvci.jsw.in       jppvci
+10.19.4.55            JSWPIPRD
+10.19.4.64            JSWPIPRD
+10.19.4.65            JSWPIPRD
+
+
+##################################################
+############ SCM PRODUCTION SYSTEM ###############
+##################################################
+10.19.4.53	jspvci.jsw.in	jspvci
+10.19.4.53	JSWSCMPRD
+10.19.4.66	JSWSCMPRD
+##################################################
+##################################################
+
+  

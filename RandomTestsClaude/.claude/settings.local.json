@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills add https://github.com/anthropics/skills --skill canvas-design)",
+      "Bash(node:*)",
+      "Bash(winget install:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "WebFetch(domain:jsw-my.sharepoint.com)",
+      "Bash(python -m pip install openpyxl pandas --quiet)",
+      "Bash(python:*)",
+      "Bash(pip show python-pptx)",
+      "mcp__mcp-registry__search_mcp_registry",
+      "WebFetch(domain:github.com)",
+      "Bash(git clone https://github.com/elyxlz/microsoft-mcp.git ~/microsoft-mcp)",
+      "WebSearch"
+    ]
+  }
+}

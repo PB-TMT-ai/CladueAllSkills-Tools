@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(pip3 install python-pptx)",
+      "Bash(python -m pip install python-pptx)",
+      "Bash(pip install python-pptx)",
+      "Bash(gh api repos/anthropics/skills/contents/skills/pptx?ref=b0cbd3df1533b396d281a6886d5132f623393a9c)",
+      "Bash(gh api repos/anthropics/skills/git/trees/b0cbd3df1533b396d281a6886d5132f623393a9c?recursive=1)",
+      "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(x[''path'']\\) for x in data[''tree''] if x[''path''].startswith\\(''skills/pptx''\\)]\")",
+      "Bash(gh auth status)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

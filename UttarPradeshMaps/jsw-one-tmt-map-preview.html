@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSW ONE TMT — Conversion Mill Network</title>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #FAFAF9; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+
+const INDIA_PATH =
+  "M2.8,242.9 L12.1,240.7 L13.0,233.7 L30.1,236.7 L50.7,232.0 L44.1,206.7 L35.0,201.8 L35.8,189.9 L25.1,185.1 L25.6,177.5 L40.1,159.5 L46.6,165.8 L64.5,160.8 L72.4,145.0 L81.7,139.4 L89.7,121.3 L96.8,118.1 L98.3,111.3 L110.5,99.3 L109.3,83.6 L122.1,75.7 L111.4,70.1 L111.1,64.8 L105.9,64.6 L100.1,56.2 L102.5,49.9 L99.6,45.6 L104.2,41.1 L98.4,38.5 L99.4,26.9 L128.5,29.9 L143.2,25.3 L163.3,10.1 L167.4,10.4 L172.1,27.9 L182.8,33.9 L178.8,39.7 L187.0,70.0 L173.2,69.6 L178.9,80.8 L179.1,93.5 L185.1,91.9 L216.8,116.7 L206.7,125.4 L201.2,143.4 L245.6,169.6 L268.2,170.2 L287.3,185.0 L333.3,192.4 L335.7,161.0 L346.7,159.9 L345.6,176.5 L352.5,183.7 L400.0,182.9 L401.4,174.2 L393.2,168.8 L393.9,164.8 L409.1,162.4 L420.9,147.4 L443.7,133.8 L456.5,139.3 L467.3,131.1 L472.6,135.0 L469.0,141.5 L473.9,139.0 L476.3,144.7 L471.4,151.8 L488.7,155.6 L488.9,161.2 L481.3,168.3 L485.0,177.7 L478.9,173.4 L469.8,174.8 L452.1,188.1 L452.2,199.2 L443.0,213.6 L445.1,219.0 L435.5,242.5 L422.1,238.7 L422.8,257.3 L419.4,259.4 L419.2,275.4 L415.2,280.2 L409.6,280.4 L404.1,246.3 L398.8,246.3 L393.7,260.4 L388.6,257.9 L386.1,248.4 L389.5,238.1 L397.9,236.1 L407.8,221.1 L400.8,216.6 L363.9,214.1 L361.2,195.7 L356.2,199.9 L350.3,191.8 L347.1,195.0 L339.5,188.7 L334.7,202.2 L349.2,214.8 L340.9,216.2 L333.7,227.4 L345.4,234.5 L342.8,246.5 L348.8,256.3 L350.9,286.9 L345.8,288.3 L344.0,277.6 L343.1,286.8 L335.4,287.3 L336.6,277.2 L332.4,272.5 L336.0,277.6 L332.5,283.5 L314.3,295.3 L316.3,306.0 L312.5,313.7 L303.6,322.1 L287.5,324.8 L286.3,328.1 L290.7,327.5 L268.4,354.1 L239.3,378.1 L237.6,388.8 L221.4,393.3 L216.3,404.8 L210.8,402.1 L204.9,405.8 L200.9,418.5 L205.1,450.3 L201.0,447.9 L205.7,452.8 L194.9,493.7 L197.3,513.5 L188.6,514.9 L182.3,528.7 L190.2,536.2 L173.7,537.9 L167.7,552.3 L158.6,558.4 L142.6,541.9 L139.1,521.6 L115.8,468.7 L106.4,430.1 L89.0,390.8 L81.3,347.1 L83.4,339.6 L80.1,338.4 L83.1,334.5 L77.8,323.4 L81.6,306.5 L76.9,290.8 L85.2,285.0 L75.7,286.1 L78.3,280.6 L75.9,276.8 L80.2,275.3 L69.7,274.6 L67.3,283.5 L70.9,289.4 L66.9,296.9 L50.4,305.2 L41.4,303.2 L16.2,274.2 L36.3,268.5 L41.5,258.2 L27.7,264.8 L20.6,263.0 L7.0,248.6 L12.9,243.0 L3.9,248.1 L2.8,242.9 Z";
+
+const PLANTS = [
+  { id: 1, name: "AmbaShakti Gwalior", location: "Gwalior", state: "MP", lat: 26.22, lon: 78.18, lrf: 3400, freight: 1524, margin: -231 },
+  { id: 2, name: "Real Ispat", location: "Raipur", state: "CG", lat: 21.25, lon: 81.63, lrf: 4500, freight: 2453, margin: 15 },
+  { id: 3, name: "Rashmi", location: "Kharagpur", state: "WB", lat: 22.35, lon: 87.32, lrf: 3500, freight: 1933, margin: 646 },
+  { id: 4, name: "Jai Bharat", location: "Kala Amb", state: "HP", lat: 30.52, lon: 77.28, lrf: 3400, freight: 1379, margin: -1775 },
+  { id: 5, name: "SKA Ispat", location: "Raipur", state: "CG", lat: 21.75, lon: 82.10, lrf: 3500, freight: 2453, margin: 1015 },
+  { id: 6, name: "AmbaShakti Sikandrabad", location: "Sikandrabad", state: "UP", lat: 28.35, lon: 77.69, lrf: 3400, freight: 1339, margin: -1188 },
+  { id: 7, name: "German Steel", location: "Kutch", state: "GJ", lat: 23.73, lon: 69.86, lrf: 2500, freight: 1635, margin: -1870 },
+];
+
+const BLUES = ["#08306B", "#2171B5", "#6BAED6"];
+const RED = "#E05252";
+
+function getSegmentColors(plant) {
+  const vals = [
+    { key: "lrf", absVal: plant.lrf },
+    { key: "freight", absVal: plant.freight },
+    { key: "margin", absVal: Math.abs(plant.margin) },
+  ];
+  const ranked = [...vals].sort((a, b) => b.absVal - a.absVal);
+  const colorMap = {};
+  ranked.forEach((v, i) => { colorMap[v.key] = BLUES[i]; });
+  if (plant.margin < 0) colorMap.margin = RED;
+  return colorMap;
+}
+
+const MAP_BOUNDS = { minLon: 68, maxLon: 98, minLat: 6, maxLat: 36 };
+const MAP_W = 500;
+const MAP_H = 600;
+
+function project(lon, lat) {
+  const x = ((lon - MAP_BOUNDS.minLon) / (MAP_BOUNDS.maxLon - MAP_BOUNDS.minLon)) * MAP_W;
+  const y = ((MAP_BOUNDS.maxLat - lat) / (MAP_BOUNDS.maxLat - MAP_BOUNDS.minLat)) * MAP_H;
+  return { x: Math.round(x * 10) / 10, y: Math.round(y * 10) / 10 };
+}
+
+function FactoryIcon({ x, y, size = 20, color = "#2C3E50" }) {
+  const s = size;
+  const d = `M${0},${s} L${0},${s*0.45} L${s*0.2},${s*0.15} L${s*0.2},${s*0.45} L${s*0.4},${s*0.15} L${s*0.4},${s*0.45} L${s*0.6},${s*0.15} L${s*0.6},${s*0.45} L${s*0.75},${s*0.45} L${s*0.75},${0} L${s*0.85},${0} L${s*0.85},${s*0.45} L${s},${s*0.45} L${s},${s} Z`;
+  return <path d={d} fill={color} transform={`translate(${x - s/2},${y - s/2})`} />;
+}
+
+function formatVal(val) {
+  const abs = Math.abs(val);
+  const formatted = abs.toLocaleString("en-IN");
+  return val < 0 ? `\u20B9-${formatted}` : `\u20B9${formatted}`;
+}
+
+const maxTotal = Math.max(...PLANTS.map((p) => p.lrf + p.freight + Math.abs(p.margin)));
+const MAX_BAR_W = 140;
+
+function RoundedBar({ x, y, w, h, fill, roundLeft, roundRight }) {
+  const r = 2.5;
+  if (w <= 0) return null;
+  const rl = roundLeft ? r : 0;
+  const rr = roundRight ? r : 0;
+  const d = `M${x+rl},${y} ${roundLeft ? `Q${x},${y} ${x},${y+rl}` : `L${x},${y}`} L${x},${y+h-rl} ${roundLeft ? `Q${x},${y+h} ${x+rl},${y+h}` : `L${x},${y+h}`} L${x+w-rr},${y+h} ${roundRight ? `Q${x+w},${y+h} ${x+w},${y+h-rr}` : `L${x+w},${y+h}`} L${x+w},${y+rr} ${roundRight ? `Q${x+w},${y} ${x+w-rr},${y}` : `L${x+w},${y}`} Z`;
+  return <path d={d} fill={fill} />;
+}
+
+function StackedBar({ plant, barX, barY }) {
+  const scale = MAX_BAR_W / maxTotal;
+  const wLrf = plant.lrf * scale;
+  const wFreight = plant.freight * scale;
+  const wMargin = Math.abs(plant.margin) * scale;
+  const barH = 12;
+  const colors = getSegmentColors(plant);
+
+  const segments = [
+    { w: wLrf, color: colors.lrf, label: formatVal(plant.lrf) },
+    { w: wFreight, color: colors.freight, label: formatVal(plant.freight) },
+    { w: wMargin, color: colors.margin, label: formatVal(plant.margin) },
+  ];
+
+  let cx = 0;
+  return (
+    <g transform={`translate(${barX},${barY})`}>
+      {segments.map((seg, i) => {
+        const sx = cx;
+        cx += seg.w;
+        const midX = sx + seg.w / 2;
+        const textFits = seg.w > 36;
+        return (
+          <g key={i}>
+            <RoundedBar x={sx} y={0} w={seg.w} h={barH} fill={seg.color}
+              roundLeft={i === 0} roundRight={i === segments.length - 1} />
+            {textFits ? (
+              <text x={midX} y={barH/2+0.5} textAnchor="middle" dominantBaseline="central"
+                fill="#fff" style={{ fontFamily: '"Calibri","Segoe UI",sans-serif', fontSize: "7px", fontWeight: 500 }}>
+                {seg.label}
+              </text>
+            ) : (
+              <text x={midX} y={-3.5} textAnchor="middle" fill="#4A5568"
+                style={{ fontFamily: '"Calibri","Segoe UI",sans-serif', fontSize: "6.5px" }}>
+                {seg.label}
+              </text>
+            )}
+          </g>
+        );
+      })}
+    </g>
+  );
+}
+
+const LAYOUT = {
+  4: { bar: { dx: 24, dy: -6 }, label: { dx: 24, dy: -18, anchor: "start" } },
+  6: { bar: { dx: 24, dy: -6 }, label: { dx: 24, dy: -18, anchor: "start" } },
+  1: { bar: { dx: 24, dy: -6 }, label: { dx: 24, dy: -18, anchor: "start" } },
+  7: { bar: { dx: -8, dy: 18 }, label: { dx: 0, dy: -16, anchor: "middle" } },
+  2: { bar: { dx: 24, dy: -20 }, label: { dx: 24, dy: -32, anchor: "start" } },
+  5: { bar: { dx: 24, dy: 18 }, label: { dx: 24, dy: 34, anchor: "start" } },
+  3: { bar: { dx: -50, dy: -28 }, label: { dx: -50, dy: -40, anchor: "start" } },
+};
+
+function JSWOneTMTMap() {
+  const [hovered, setHovered] = React.useState(null);
+
+  const vbW = 740;
+  const vbH = 600;
+  const mapOx = 100;
+  const mapOy = 5;
+  const mapScale = 0.88;
+
+  return (
+    <div style={{
+      width: "100%", maxWidth: 1440, margin: "0 auto",
+      padding: "28px 36px 16px", background: "#FAFAF9",
+      fontFamily: '"Calibri","Segoe UI",sans-serif',
+    }}>
+      <h1 style={{
+        fontFamily: '"Georgia",serif', fontSize: 20, fontWeight: 600,
+        color: "#1A202C", margin: "0 0 16px 0", letterSpacing: "0.01em",
+      }}>
+        JSW ONE TMT — Conversion Mill Network
+      </h1>
+
+      <svg viewBox={`0 0 ${vbW} ${vbH}`} width="100%"
+        style={{ maxWidth: 960, display: "block" }} xmlns="http://www.w3.org/2000/svg">
+        <g transform={`translate(${mapOx},${mapOy}) scale(${mapScale})`}>
+          <path d={INDIA_PATH} fill="#F0EEEB" stroke="#C8C4BE"
+            strokeWidth="1.1" strokeLinejoin="round" />
+
+          {PLANTS.map((plant) => {
+            const pos = project(plant.lon, plant.lat);
+            const layout = LAYOUT[plant.id];
+            const barX = pos.x + layout.bar.dx;
+            const barY = pos.y + layout.bar.dy;
+            const lblX = pos.x + layout.label.dx;
+            const lblY = pos.y + layout.label.dy;
+            const barTotalW = (plant.lrf + plant.freight + Math.abs(plant.margin)) * (MAX_BAR_W / maxTotal);
+            const lineToX = layout.bar.dx >= 0 ? barX : barX + barTotalW;
+            const lineToY = barY + 6;
+
+            return (
+              <g key={plant.id}
+                onMouseEnter={() => setHovered(plant.id)}
+                onMouseLeave={() => setHovered(null)}
+                style={{ cursor: "pointer" }}>
+
+                <line x1={pos.x} y1={pos.y} x2={lineToX} y2={lineToY}
+                  stroke="#CBD5E0" strokeWidth="0.7" strokeDasharray="3,2" />
+
+                <FactoryIcon x={pos.x} y={pos.y} size={20} />
+
+                <text x={lblX} y={lblY} textAnchor={layout.label.anchor}
+                  fill="#4A5568" style={{
+                    fontFamily: '"Calibri","Segoe UI",sans-serif',
+                    fontSize: "9px", fontWeight: 500,
+                  }}>
+                  {plant.name}
+                </text>
+
+                <StackedBar plant={plant} barX={barX} barY={barY} />
+
+                {hovered === plant.id && (() => {
+                  const tw = 165, th = 74;
+                  let tx = pos.x + 16;
+                  let ty = pos.y - th - 10;
+                  if (ty < 0) ty = pos.y + 20;
+                  if (tx + tw > MAP_W) tx = pos.x - tw - 10;
+                  const colors = getSegmentColors(plant);
+                  return (
+                    <g style={{ pointerEvents: "none" }}>
+                      <rect x={tx} y={ty} width={tw} height={th} rx={4}
+                        fill="#fff" stroke="#E2E8F0" strokeWidth="0.5"
+                        style={{ filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.12))" }} />
+                      <text x={tx+10} y={ty+15} fill="#1A202C"
+                        style={{ fontSize: "10px", fontWeight: 600, fontFamily: '"Calibri","Segoe UI",sans-serif' }}>
+                        {plant.name}
+                      </text>
+                      <text x={tx+10} y={ty+27} fill="#718096"
+                        style={{ fontSize: "8px", fontFamily: '"Calibri","Segoe UI",sans-serif' }}>
+                        {plant.location}, {plant.state}
+                      </text>
+                      <line x1={tx+10} y1={ty+32} x2={tx+tw-10} y2={ty+32}
+                        stroke="#EDF2F7" strokeWidth="0.5" />
+                      <text x={tx+10} y={ty+44} fill={colors.lrf}
+                        style={{ fontSize: "8px", fontFamily: '"Calibri","Segoe UI",sans-serif' }}>
+                        LRF Cost: {formatVal(plant.lrf)}
+                      </text>
+                      <text x={tx+10} y={ty+55} fill={colors.freight}
+                        style={{ fontSize: "8px", fontFamily: '"Calibri","Segoe UI",sans-serif' }}>
+                        Freight: {formatVal(plant.freight)}
+                      </text>
+                      <text x={tx+10} y={ty+66}
+                        fill={colors.margin}
+                        style={{ fontSize: "8px", fontWeight: 600, fontFamily: '"Calibri","Segoe UI",sans-serif' }}>
+                        Margin: {formatVal(plant.margin)}
+                      </text>
+                    </g>
+                  );
+                })()}
+              </g>
+            );
+          })}
+        </g>
+
+        <g transform={`translate(${vbW/2 - 220}, ${vbH - 14})`}>
+          {[
+            { color: BLUES[0], label: "Highest value" },
+            { color: BLUES[1], label: "Middle value" },
+            { color: BLUES[2], label: "Lowest value" },
+            { color: RED, label: "Negative margin" },
+          ].map((item, i) => (
+            <g key={i} transform={`translate(${i * 110},0)`}>
+              <rect x={0} y={-4} width={8} height={8} rx={1.5} fill={item.color} />
+              <text x={11} y={1} dominantBaseline="central" fill="#718096"
+                style={{ fontFamily: '"Calibri","Segoe UI",sans-serif', fontSize: "9px" }}>
+                {item.label}
+              </text>
+            </g>
+          ))}
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<JSWOneTMTMap />);
+
+  </script>
+</body>
+</html>

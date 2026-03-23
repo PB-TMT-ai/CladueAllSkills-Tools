@@ -88,3 +88,16 @@ temp/
 .opencode/package-lock.json
 .opencode/node_modules/
 assets/images/security/badrudi-exploit.mp4
+
+# Windows reserved filenames
+nul
+
+# System directories
+$RECYCLE.BIN/
+System Volume Information/
+
+# Sensitive local files
+!!!!!*
+XORXOR*
+ZZZZZ*
+zHOzaaTW*

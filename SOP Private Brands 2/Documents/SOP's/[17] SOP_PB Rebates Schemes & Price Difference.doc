@@ -1,0 +1,561 @@
+Date: Thu, 19 Feb 2026 11:21:42 +0000 (UTC)
+Message-ID: <426388645.71.1771500102339@2dcba3f098eb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_70_921243216.1771500102339"
+
+------=_Part_70_921243216.1771500102339
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>1- PB Rebates, Schemes and Price difference- Ops process SOP</ti=
+tle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>1- PB Rebates, Schemes and Price difference- Ops process SOP</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-Pu=
+rposeandScope"><strong>Purpose and Scope</strong></h2>
+<p>To align, manage and track influencer meets across distributor and retai=
+ler locations, in order to educate and onboard potential partners and incre=
+ase sales reach.</p>
+<p><strong>Handover timeline: PB -&gt;BizOps: </strong>8-30 September 2025<=
+/p>
+<h2 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-Stakeholde=
+rs"><strong>Stakeholders</strong></h2>
+<p>Primary data for Schemes, Rebates and Pricing cashbacks - Kunal Jani (PB=
+ HO team)</p>
+<p>Data entry and calculations - BizOps</p>
+<p>Data management platform - Excel</p>
+<p>CN issuance - <em>Responsibility to be distributed/aligned between BizOp=
+s and Finance</em></p>
+<p></p>
+<h3 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-Pre-requis=
+itesandkeypointstonote:"><strong>Pre-requisites and key points to note:</st=
+rong></h3>
+<ol start=3D"1">
+<li>
+<p>PB Sales team to share all types of schemes and rebates details with Biz=
+Ops team on a monthly basis.</p></li>
+<li>
+<p>Schemes run at an order level and pricing at which CN will be raised is =
+considered of the initial order date. For cases where there are Re-SLOs, th=
+e pricing will still be considered from the original SLO date, which needs =
+to be tracked manually in coordination with Sales.</p></li>
+<li>
+<p>Distributor and Dealer schemes and pricing are different, and decided by=
+ PB Sales teams only.</p></li>
+<li>
+<p>Types of schemes: <em>*seperate CNs are created for each type of scheme =
+below</em></p>
+<ol start=3D"1">
+<li>
+<p>Additional/Normal support - Rs/MT</p></li>
+<li>
+<p>State level support - Rs/MT</p></li>
+</ol></li>
+<li>
+<p>Additional schemes as and when introduced, to be shared by PB team to Bi=
+zOps</p></li>
+</ol>
+<h2 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-Process"><=
+strong>Process</strong></h2>
+<p><strong>Rebates and Schemes CNs</strong></p>
+<ol start=3D"1">
+<li>
+<p>BizOps to pick a scheme shared by PB team and refer the sheet <a class=
+=3D"external-link" href=3D"https://jsw-my.sharepoint.com/:x:/r/personal/kun=
+al_jani_jsw_in/_layouts/15/Doc.aspx?sourcedoc=3D%7BE552EFC9-240E-43C4-B083-=
+28F7D9B4A260%7D&amp;file=3DFY%2026_Rebates%20&amp;%20Schemes%20working.xlsx=
+=3D&amp;fromShare=3Dtrue&amp;action=3Ddefault&amp;mobileredirect=3Dtrue" re=
+l=3D"nofollow">FY 26_Rebates &amp; Schemes working</a> for working and calc=
+ulation.</p></li>
+<li>
+<p>User to update the scheme price state-wise in the top most section in th=
+e tab under =E2=80=98State Supply=E2=80=99 and =E2=80=98State=E2=80=99</p><=
+/li>
+<li>
+<p>Next, refer tab '&lt;month&gt;_state supply+add. supp.' and select Distr=
+ibutor/Dealer name and Order date from the columns already auto-populating =
+in the sheet.</p></li>
+<li>
+<p>Once the state-wise price is updated, similar column =E2=80=98State Supp=
+ly=E2=80=99 in the table below will auto-populate rows with the price as me=
+ntioned in point 2.</p></li>
+<li>
+<p>User to then manually add Additional support rebate price at the distrib=
+utor and state level.</p></li>
+<li>
+<p>Once both =E2=80=98State supply=E2=80=99 and =E2=80=98Additional support=
+ rebate=E2=80=99 price are added, it will calcuate total amount of both bas=
+is the invoiced quantity already mentioned in the table againt the distribu=
+tor/dealer.</p></li>
+<li>
+<p>Same process from 1-&gt;6 is to be repeated for all distributors/dealers=
+ for order placed and fulfilled during the defined period/month.</p></li>
+<li>
+<p>Once done, the calculation needs to be shared with PB team for verificat=
+ion. In case of an error or exception, BizOps to update calculations as per=
+ feedback and share. <em>*exception workflow yet to be discussed.</em></p><=
+/li>
+<li>
+<p>Once verified by PB team, BizOps to share details/file with PB finance f=
+or further verification and respective approvals.</p></li>
+<li>
+<p>Once approved, a Credit Note is to be created for each distributor, sche=
+me-wise in Zoho Books. <em>(ownership b/w BizOps and Finance teams yet to b=
+e finalized):</em></p>
+<ol start=3D"1">
+<li>
+<p><em>Finance to create, approve and email CNs to the distributors.</em></=
+p></li>
+<li>
+<p><em>BizOps to create, approve and email CNs to the distributors.</em></p=
+></li>
+<li>
+<p><em>BizOps to create CNs, Finance to approve and email to distributors.<=
+/em></p></li>
+</ol></li>
+</ol>
+<p></p>
+<p><strong>Price Difference CNs</strong></p>
+<ol start=3D"1">
+<li>
+<p>PB team to share price type: FOR ro Ex-works, and amount for each Distri=
+butor at an order and dia level to BizOps.</p></li>
+<li>
+<p>BizOps to refer sheet <a class=3D"external-link" href=3D"https://jsw-my.=
+sharepoint.com/:x:/r/personal/kunal_jani_jsw_in/_layouts/15/Doc.aspx?source=
+doc=3D%7BA82E6FFD-CEA6-4265-87F1-E00531B38E1B%7D&amp;file=3DPrice%20differe=
+nce%20calculations%20-%20May%2025.xlsx&amp;action=3Ddefault&amp;mobileredir=
+ect=3Dtrue" rel=3D"nofollow">Price difference calculations</a> and check li=
+st price, proposed price, FOR freight (if applicable) calculate difference =
+in plant price vs proposed price.<em>*FOR prices can change month-on-month.=
+</em></p></li>
+<li>
+<p>User to calculate CN value for each Distributor and share the working wi=
+th PB and Finance team as in the above section.</p></li>
+<li>
+<p>Once approved, CN to be created as per the steps decided in point '10' o=
+f the above section.</p></li>
+</ol>
+<p><strong>Consistency scheme (other)</strong></p>
+<p>Sheet- <a class=3D"external-link" href=3D"https://jsw-my.sharepoint.com/=
+:x:/r/personal/kunal_jani_jsw_in/_layouts/15/Doc.aspx?sourcedoc=3D%7B2499F8=
+29-6249-4C64-B2C6-B8778E7E318C%7D&amp;file=3DFY%2026%20Q1%20consistency%20s=
+cheme.xlsx&amp;fromShare=3Dtrue&amp;action=3Ddefault&amp;mobileredirect=3Dt=
+rue" rel=3D"nofollow">FY 26 Q1 consistency scheme</a></p>
+<ol start=3D"1">
+<li>
+<p>Dealers are segmented into categories basis the tonnage lifted each mont=
+h.</p></li>
+<li>
+<p>Consistency scheme for Retailers is update by PB team and shared to BizO=
+ps.</p></li>
+<li>
+<p>There are 2 types of schemes:</p>
+<ol start=3D"1">
+<li>
+<p>Monthly scheme basis MOQ</p></li>
+<li>
+<p>Quarterly consistency scheme <em>(over and above monthly MOQ scheme)</em=
+></p></li>
+</ol></li>
+<li>
+<p>CN is to be issued separately for both schemes even if for the same Deal=
+er.</p></li>
+<li>
+<p>CN issued should be in the name of Distributor, not dealer.</p></li>
+</ol>
+<h2 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-Timelines:=
+"><strong>Timelines:</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"78=
+b5aebb-7227-45d2-b257-a06d98f4f468" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 141.0px;">
+<col style=3D"width: 228.0px;">
+<col style=3D"width: 81.0px;">
+<col style=3D"width: 164.0px;">
+<col style=3D"width: 143.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p><strong>Task</strong></p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p><strong>Sub-task</strong></p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p><strong>Owner</strong></p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p><strong>Frequency</strong></p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p><strong>Completion TAT</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#deebff" rowspan=3D"2" class=3D"confluenceTd">
+<p>Rebates and Schemes</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Price sharing</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>PB team</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Monthly</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Calculation and document sharing with Distributor/dealer</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>BizOps</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Monthly/Order level <em>(to be decided)</em></p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>1 weeks: 11-&gt;18th every month</p></td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">
+<p>Price difference CN</p></td>
+<td class=3D"confluenceTd">
+<p>Price sharing</p></td>
+<td class=3D"confluenceTd">
+<p>PB team</p></td>
+<td class=3D"confluenceTd">
+<p>Monthly</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Calculation and document sharing with Distributor/dealer</p></td>
+<td class=3D"confluenceTd">
+<p>BizOps</p></td>
+<td class=3D"confluenceTd">
+<p>Monthly/Order level <em>(to be decided)</em></p></td>
+<td class=3D"confluenceTd">
+<p>1 week from data received date</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#deebff" rowspan=3D"2" class=3D"confluenceTd">
+<p>Consistency scheme (other)</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Price sharing</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>PB team</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Monthly</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Calculation and document sharing with Distributor/dealer</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>BizOps</p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>Monthly/Order level <em>(to be decided)</em></p></td>
+<td data-highlight-colour=3D"#deebff" class=3D"confluenceTd">
+<p>1 week from data received date</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h2 id=3D"id-1-PBRebates,SchemesandPricedifference-OpsprocessSOP-ReviewandS=
+ign-off"><strong>Review and Sign-off</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5e=
+f6aff0-ae98-45fa-adc8-3a4a6022339c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 128.0px;">
+<col style=3D"width: 181.0px;">
+<col style=3D"width: 142.0px;">
+<col style=3D"width: 108.0px;">
+<col style=3D"width: 195.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Name</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Role</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Sign-off</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Date</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Remarks</p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Sourabh Maity</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>GM- Operations</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Megha Modi</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Head- Operations</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Karan Seth</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Private Brands</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Shubhenjit Chaudhuri</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Private Brands</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_70_921243216.1771500102339--

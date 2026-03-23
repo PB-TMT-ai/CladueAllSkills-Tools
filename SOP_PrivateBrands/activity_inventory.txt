@@ -1,0 +1,418 @@
+================================================================================
+ALL PARAGRAPHS
+================================================================================
+Para   0 | Style: Title                          | Text: JSW ONE TMT
+Para   1 | Style: Heading 1                      | Text: STANDARD OPERATING PROCEDURE
+Para   2 | Style: Heading 1                      | Text: Order Logging Process
+Para   4 | Style: Normal                         | Text: Complete End-to-End Process Documentation
+Para   5 | Style: Heading 1                      | Text: Table of Contents
+Para   6 | Style: Heading 2                      | Text: PRE-ORDER PHASE
+Para   7 | Style: List Bullet                    | Text: Section A: FOR Orders (Freight On Road)
+         Run 0: text='Section A: FOR Orders (Freight On Road)' bold=None size=None
+Para   8 | Style: List Bullet 2                  | Text: Section A.1: Special Cases - RRP Breach Approvals
+         Run 0: text='Section A.1: Special Cases - RRP Breach Approvals' bold=None size=None
+Para   9 | Style: List Bullet 2                  | Text: Section A.2: Special Cases - Delivery Instruction Changes
+         Run 0: text='Section A.2: Special Cases - Delivery Instruction Changes' bold=None size=None
+Para  10 | Style: List Bullet 2                  | Text: Section A.3: Special Cases - Channel Finance Orders
+         Run 0: text='Section A.3: Special Cases - Channel Finance Orders' bold=None size=None
+Para  11 | Style: List Bullet                    | Text: Section B: Ex-works Orders
+         Run 0: text='Section B: Ex-works Orders' bold=None size=None
+Para  12 | Style: List Bullet                    | Text: Section C: Project / PTR Orders
+         Run 0: text='Section C: Project / PTR Orders' bold=None size=None
+Para  13 | Style: Heading 2                      | Text: ORDER PHASE
+Para  14 | Style: List Bullet                    | Text: Section D - Phase 1: Planning Team Coordination
+         Run 0: text='Section D - Phase 1: Planning Team Coordination' bold=None size=None
+Para  15 | Style: List Bullet                    | Text: Section D - Phase 2: Biz-ops Team Execution
+         Run 0: text='Section D - Phase 2: Biz-ops Team Execution' bold=None size=None
+Para  16 | Style: List Bullet                    | Text: Section D - Phase 3: JOTS Transportation
+         Run 0: text='Section D - Phase 3: JOTS Transportation' bold=None size=None
+Para  17 | Style: Heading 2                      | Text: POST-ORDER PHASE
+Para  18 | Style: List Bullet                    | Text: Section D - Phase 4: Plant Operations (Dispatch)
+         Run 0: text='Section D - Phase 4: Plant Operations (Dispatch)' bold=None size=None
+Para  19 | Style: List Bullet                    | Text: Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]
+         Run 0: text='Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]' bold=None size=None
+Para  22 | Style: Heading 1                      | Text: PRE-ORDER PHASE
+Para  23 | Style: Normal                         | Text: This phase covers order type selection and opportunity creation across all distribution channels: Retail and Project.
+Para  24 | Style: Normal                         | Text: All retail orders are on ‘Freight on Road (FOR)’ basis.
+Para  25 | Style: Heading 2                      | Text: SECTION A: FOR Orders (Freight on Road)
+Para  27 | Style: Normal                         | Text: IMPORTANT: Activity 1.f (Freight Approval Request) has been REMOVED from this section as it is not required for retail F
+         Run 0: text='IMPORTANT: Activity 1.f (Freight Approval Request) has been REMOVED from this ' bold=None size=None
+         Run 1: text='section' bold=None size=None
+         Run 2: text=' as it is not required for retail ' bold=None size=None
+         Run 3: text='FOR orders. Order ID is ' bold=None size=None
+         Run 4: text='generated automatically upon opportunity submission.' bold=None size=None
+Para  29 | Style: Normal                         | Text: Note: Original activities 1.f, 1.f.i, and 1.f.ii (Freight Approval workflow) have been removed as they are not part of t
+Para  31 | Style: Heading 2                      | Text: Section A.1: Special Cases - Price Breach Approval (Price going below distributor list price)
+         Run 0: text='Section A.1: Special Cases - Price Breach Approval' bold=None size=None
+         Run 1: text=' (Price going below distributor list price)' bold=None size=None
+Para  32 | Style: Normal                         | Text: Order approval is triggered automatically when business rules are violated. Three trigger cases exist:
+Para  33 | Style: List Paragraph                 | Text: Price going distributor list price
+Para  34 | Style: List Paragraph                 | Text: Price going above distributor list price
+Para  35 | Style: List Paragraph                 | Text: Change in delivery instruction
+Para  36 | Style: Normal                         | Text: Trigger Case 1: Price going below the distributor list price
+Para  39 | Style: Normal                         | Text: Trigger Case 2: Price going above distributor list price
+Para  42 | Style: Heading 2                      | Text: Section A.2: Special Cases - Delivery Instruction Changes
+         Run 0: text='Section A.2: Special Cases - Delivery Instruction Changes' bold=None size=None
+Para  43 | Style: Heading 3                      | Text: Trigger Case 3: Change in Delivery Instruction
+Para  48 | Style: Heading 2                      | Text: Section A.3: Special Cases - Channel Finance Orders
+         Run 0: text='Section A.3: Special Cases - Channel Finance Orders' bold=None size=None
+Para  49 | Style: Normal                         | Text: Channel finance enables select customers to procure steel on extended credit terms through financial partners.
+Para  52 | Style: Heading 2                      | Text: SECTION C: Project / PTR Orders
+Para  56 | Style: Heading 1                      | Text: ORDER PHASE
+Para  57 | Style: Heading 2                      | Text: Section D - Phase 1: Planning Team Coordination
+         Run 0: text='Section D - Phase 1: Planning Team Coordination' bold=None size=None
+Para  60 | Style: Heading 2                      | Text: Section D - Phase 2: Biz-ops Team Execution
+         Run 0: text='Section D - Phase 2: Biz-ops Team Execution' bold=None size=None
+Para  63 | Style: Heading 2                      | Text: Section D - Phase 3: JOTS Transportation
+         Run 0: text='Section D - Phase 3: JOTS Transportation' bold=None size=None
+Para  67 | Style: Heading 1                      | Text: POST-ORDER PHASE
+Para  68 | Style: Heading 2                      | Text: Section D - Phase 4: Plant Operations (Dispatch)
+         Run 0: text='Section D - Phase 4: Plant Operations (Dispatch)' bold=None size=None
+Para  70 | Style: Normal                         | Text: Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]
+         Run 0: text='Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]' bold=None size=None
+Para  71 | Style: Normal                         | Text: This NEW phase covers all post-dispatch operations including Delivery Order system integration, vehicle coordination, GR
+Para  74 | Style: Heading 3                      | Text: Activity 10: Vehicle Arrival & Weighment Coordination-
+         Run 0: text='Activity 10: Vehicle Arrival & Weighment Coordination' bold=None size=None
+         Run 1: text='- ' bold=None size=None
+Para  80 | Style: Heading 3                      | Text: Activity 11: Loading Process Execution
+         Run 0: text='Activity 11: Loading Process Execution' bold=None size=None
+Para  84 | Style: Heading 3                      | Text: Activity 12: GRN Entry in Zoho Books (PB Plant Ops)
+         Run 0: text='Activity 12: GRN Entry in Zoho Books (PB Plant Ops)' bold=None size=None
+Para  87 | Style: Heading 3                      | Text: Activity 13: Invoice & E-Way Bill Generation
+         Run 0: text='Activity 13: Invoice & E-Way Bill Generation' bold=None size=None
+Para  90 | Style: Heading 3                      | Text: Activity 14: ERP Invoice Approval (Biz-Ops)
+         Run 0: text='Activity 14: ERP Invoice Approval (Biz-Ops)' bold=None size=None
+Para  93 | Style: Heading 3                      | Text: Activity 15: Manual Shipment Creation (If Auto Failure)
+         Run 0: text='Activity 15: Manual Shipment Creation (If Auto Failure)' bold=None size=None
+Para 109 | Style: Heading 3                      | Text: Activity 16: Order Short Closure (Manual & Auto)
+         Run 0: text='Activity 16: Order Short Closure (Manual & Auto)' bold=None size=None
+Para 112 | Style: Heading 1                      | Text: Glossary
+Para 113 | Style: List Bullet                    | Text: ERP – JOPL ERP (Enterprise Resource Planning)
+Para 114 | Style: List Bullet                    | Text: SKU – Stock Keeping Unit
+Para 115 | Style: List Bullet                    | Text: DO – Dispatch Order / Delivery Order
+Para 116 | Style: List Bullet                    | Text: PO – Purchase Order
+Para 117 | Style: List Bullet                    | Text: SO – Sales Order
+Para 118 | Style: List Bullet                    | Text: GRN – Goods Receipt Note
+Para 119 | Style: List Bullet                    | Text: IRP – Invoice Registration Portal
+Para 120 | Style: List Bullet                    | Text: SQAD Ticket – JSW One Tech Ticketing System
+Para 121 | Style: List Bullet                    | Text: TDS – Tax Deducted at Source
+Para 122 | Style: List Bullet                    | Text: TCS – Tax Collected at Source
+Para 123 | Style: List Bullet                    | Text: JOTS – JSW ONE Transportation System
+Para 124 | Style: List Bullet                    | Text: CM – Commercial Team
+Para 125 | Style: List Bullet                    | Text: SFDC – Salesforce
+Para 126 | Style: List Bullet                    | Text: RSM – Regional Sales Manager
+Para 127 | Style: List Bullet                    | Text: RRP – Recommended Retail Price
+Para 128 | Style: List Bullet                    | Text: PB Plant Ops – Plant Book Plant Operations
+Para 129 | Style: List Bullet                    | Text: TC – Tax Challan
+Para 130 | Style: List Bullet                    | Text: HO – Head Office
+Para 131 | Style: List Bullet                    | Text: FOR – Freight On Road
+Para 132 | Style: List Bullet                    | Text: PTR – Project/Trader
+
+================================================================================
+ALL TABLE ACTIVITY CELLS (Column 0)
+================================================================================
+
+--- Table 0 (7 rows x 5 cols) ---
+  T0 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=127000
+  T0 R1 | Cell0: '1.' | Steps: 'Log in to JSW ONE TMT Distributor Portal (self-serving porta' | Team: 'Customer / Sales'
+         P0 Run0: text='1.' bold=None size=114300
+  T0 R2 | Cell0: '1.a.' | Steps: 'On the Opportunities page, click on the 'Create new opportun' | Team: 'Customer / Sales'
+         P0 Run0: text='1.a.' bold=None size=114300
+  T0 R3 | Cell0: 'i' | Steps: 'In the 'Create opportunity' wizard (Step 1/4), select 'Order' | Team: 's'
+         P0 Run0: text='i' bold=None size=114300
+  T0 R4 | Cell0: '1.c.' | Steps: '- Select Product Details – “TMT” or “Pipes and Tubes”
+- Sele' | Team: 'Customer / Sales'
+         P0 Run0: text='1.c.' bold=None size=114300
+  T0 R5 | Cell0: '1.d.' | Steps: '- Based on the above inputs, the system reflects the pricing' | Team: 'Customer / Sales'
+         P0 Run0: text='1.d.' bold=None size=114300
+  T0 R6 | Cell0: '1.e.' | Steps: 'In case of Delivery Instruction selected as – ‘Delivered by ' | Team: 'Customer / Sales'
+         P0 Run0: text='1.e.' bold=None size=114300
+         P0 Run1: text='' bold=None size=None
+
+--- Table 1 (3 rows x 5 cols) ---
+  T1 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=114300
+  T1 R1 | Cell0: '8.a.' | Steps: 'If the ‘Sales Price’ is below the distributor list price, ap' | Team: 'Customer / Sales'
+         P0 Run0: text='8.a.' bold=None size=114300
+  T1 R2 | Cell0: '8.b.' | Steps: 'System updates opportunity status to 'Approved'. Order proce' | Team: 'Sales'
+         P0 Run0: text='8.' bold=None size=114300
+         P0 Run1: text='b' bold=None size=114300
+         P0 Run2: text='.' bold=None size=114300
+
+--- Table 2 (4 rows x 5 cols) ---
+  T2 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=114300
+  T2 R1 | Cell0: '8.a.' | Steps: 'If the ‘Sales Price’ entered is above the distributor list p' | Team: 'Customer / Sales'
+         P0 Run0: text='8.' bold=None size=114300
+         P0 Run1: text='a' bold=None size=114300
+         P0 Run2: text='.' bold=None size=114300
+  T2 R2 | Cell0: '8.a.i.' | Steps: 'The additional price (price above the distributor list price' | Team: 'Finance'
+         P0 Run0: text='8.' bold=None size=114300
+         P0 Run1: text='a' bold=None size=114300
+         P0 Run2: text='.i.' bold=None size=114300
+  T2 R3 | Cell0: '8.a.ii.' | Steps: 'Order proceeds to Biz-ops (Activity 5.f) for regular order p' | Team: 'Sales'
+         P0 Run0: text='8.' bold=None size=114300
+         P0 Run1: text='a' bold=None size=114300
+         P0 Run2: text='.i' bold=None size=114300
+         P0 Run3: text='i' bold=None size=114300
+         P0 Run4: text='.' bold=None size=114300
+
+--- Table 3 (3 rows x 5 cols) ---
+  T3 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=127000
+  T3 R1 | Cell0: '8. i.' | Steps: 'Change in ‘Delivery Instruction’ – from ‘Delivered by JSW On' | Team: 'Customer / Sales'
+         P0 Run0: text='8.' bold=True size=114300
+         P0 Run1: text=' ' bold=True size=114300
+         P0 Run2: text='i.' bold=True size=114300
+  T3 R2 | Cell0: '8. ii' | Steps: 'The order will be billed on Freight on Road (FOR) pricing. 
+' | Team: 'Sales'
+         P0 Run0: text='8.' bold=True size=114300
+         P0 Run1: text=' ' bold=True size=114300
+         P0 Run2: text='i' bold=True size=114300
+         P0 Run3: text='i' bold=True size=114300
+
+--- Table 4 (3 rows x 5 cols) ---
+  T4 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=114300
+  T4 R1 | Cell0: '2.a.' | Steps: 'Order logging is carried out as per the standard process (en' | Team: 'Customer / Sales'
+         P0 Run0: text='' bold=None size=114300
+         P0 Run1: text=' ' bold=None size=114300
+         P0 Run2: text='2.' bold=None size=114300
+         P0 Run3: text='a' bold=None size=114300
+         P0 Run4: text='.' bold=None size=114300
+  T4 R2 | Cell0: '2.b.' | Steps: 'Upon approval, Order ID generated automatically. Proceed to ' | Team: 'Sales'
+         P0 Run0: text='2.' bold=None size=114300
+         P0 Run1: text='b' bold=None size=114300
+         P0 Run2: text='.' bold=None size=114300
+
+--- Table 5 (10 rows x 5 cols) ---
+  T5 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=True size=114300
+  T5 R1 | Cell0: '3.' | Steps: 'Create customer account in Salesforce if not existing. Enter' | Team: 'Sales'
+         P0 Run0: text='3.' bold=None size=114300
+  T5 R2 | Cell0: '3.a.' | Steps: 'Search and locate customer account in SFDC system.' | Team: 'Sales'
+         P0 Run0: text='3.a.' bold=None size=114300
+  T5 R3 | Cell0: '3.b.' | Steps: 'Create new opportunity record for project order in SFDC.' | Team: 'Sales'
+         P0 Run0: text='3.b.' bold=None size=114300
+  T5 R4 | Cell0: '3.c.' | Steps: 'Add complete site/delivery address in opportunity record.' | Team: 'Sales'
+         P0 Run0: text='3.c.' bold=None size=114300
+  T5 R5 | Cell0: '3.d.' | Steps: 'Pass opportunity to HO team for entering: SKU-wise price, de' | Team: 'Sales'
+         P0 Run0: text='3.d.' bold=None size=114300
+  T5 R6 | Cell0: '3.e.' | Steps: 'HO team adds pricing. Coordinate with Planning for freight c' | Team: 'Biz Ops'
+         P0 Run0: text='3.e.' bold=None size=114300
+  T5 R7 | Cell0: '3.f.' | Steps: 'Submit opportunity with freight details for approval.
+
+L1: P' | Team: 'Biz Ops'
+         P0 Run0: text='3.f.' bold=None size=114300
+  T5 R8 | Cell0: '3.f.i.' | Steps: 'Upon approval, Order ID generated in SFDC. Proceed to Sectio' | Team: 'Sales'
+         P0 Run0: text='3.f.i.' bold=None size=114300
+  T5 R9 | Cell0: '3.f.ii.' | Steps: 'Opportunity returned. Revise freight coordination between JO' | Team: 'Biz Ops'
+         P0 Run0: text='3.f.ii.' bold=None size=114300
+
+--- Table 6 (8 rows x 5 cols) ---
+  T6 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T6 R1 | Cell0: '4.' | Steps: 'Analyze: previous sales data, PO history, category mix, prod' | Team: 'Planning'
+         P0 Run0: text='4.' bold=None size=127000
+  T6 R2 | Cell0: '4.a.' | Steps: 'Assess inventory shortage or urgent order requirements acros' | Team: 'Biz Ops'
+         P0 Run0: text='4.a.' bold=None size=127000
+  T6 R3 | Cell0: '4.b.' | Steps: 'Suggest optimal plants based on: inventory availability, cos' | Team: 'Planning'
+         P0 Run0: text='4.b.' bold=None size=127000
+  T6 R4 | Cell0: '4.c.' | Steps: 'Coordinate with pricing team to finalize price structure.' | Team: 'Planning'
+         P0 Run0: text='4.c.' bold=None size=127000
+  T6 R5 | Cell0: '4.d.' | Steps: 'Coordinate with JOTS team for accurate freight rates and log' | Team: 'Biz Ops'
+         P0 Run0: text='4.d.' bold=None size=127000
+  T6 R6 | Cell0: '4.e.' | Steps: 'Coordinate with Product team for timely inventory resolution' | Team: 'Biz Ops'
+         P0 Run0: text='4.e.' bold=None size=127000
+  T6 R7 | Cell0: '4.f.' | Steps: 'Update freight details on Planning sheet for Biz-ops referen' | Team: 'Biz Ops'
+         P0 Run0: text='4.f.' bold=None size=127000
+
+--- Table 7 (12 rows x 5 cols) ---
+  T7 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T7 R1 | Cell0: '5.' | Steps: 'Coordinate with Planning for plant shift orders based on inv' | Team: 'Biz-ops'
+         P0 Run0: text='5.' bold=None size=127000
+  T7 R2 | Cell0: '5.a.' | Steps: 'Biz-ops coordinates with JOTS for freight arrangement and ve' | Team: 'Biz-ops'
+         P0 Run0: text='5.a.' bold=None size=127000
+  T7 R3 | Cell0: '5.b.' | Steps: 'Calculate and enter freight costs in SFDC order record from ' | Team: 'Biz-ops'
+         P0 Run0: text='5.b.' bold=None size=127000
+  T7 R4 | Cell0: '5.c.' | Steps: 'System auto-generates Order ID in SFDC (not created by Biz O' | Team: 'Biz-ops'
+         P0 Run0: text='5.c.' bold=None size=127000
+  T7 R5 | Cell0: '5.d.' | Steps: 'Verify generated order is visible in ERP system.' | Team: 'Biz-ops'
+         P0 Run0: text='5.d.' bold=None size=127000
+  T7 R6 | Cell0: '5.e.' | Steps: 'Conduct checks: Inventory Ledger verification, Bill-to addre' | Team: 'Biz-ops'
+         P0 Run0: text='5.e.' bold=None size=127000
+  T7 R7 | Cell0: '5.f.' | Steps: 'Confirm order in ERP after all checks passed.' | Team: 'Biz-ops'
+         P0 Run0: text='5.f.' bold=None size=127000
+  T7 R8 | Cell0: '5.g.' | Steps: 'Verify key fields post-confirmation: Customer Details, Busin' | Team: 'Biz-ops'
+         P0 Run0: text='5.g.' bold=None size=127000
+  T7 R9 | Cell0: '5.h.' | Steps: 'Release delivery order quantity in ERP.' | Team: 'Biz-ops'
+         P0 Run0: text='5.h.' bold=None size=127000
+  T7 R10 | Cell0: '5.i.' | Steps: 'Complete delivery order release and update system status.' | Team: 'Biz-ops'
+         P0 Run0: text='5.i.' bold=None size=127000
+  T7 R11 | Cell0: '5.j.' | Steps: 'Share system-generated delivery order with JOTS for vehicle ' | Team: 'Biz-ops'
+         P0 Run0: text='5.j.' bold=None size=127000
+
+--- Table 8 (7 rows x 5 cols) ---
+  T8 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T8 R1 | Cell0: '6.a' | Steps: '-Receive the system-generated Delivery Order (DO) from Biz O' | Team: 'JOTS'
+         P0 Run0: text='6.a' bold=None size=None
+  T8 R2 | Cell0: '6.b' | Steps: '-Verify the order type to confirm whether it is FOR / Self-S' | Team: 'JOTS'
+         P0 Run0: text='6.b' bold=None size=None
+  T8 R3 | Cell0: '6.c' | Steps: '-For Project orders, refer to the freight details updated by' | Team: 'JOTS'
+         P0 Run0: text='6.c' bold=None size=None
+  T8 R4 | Cell0: '6.d' | Steps: '-Release the Delivery Order (DO) to the transporter for vehi' | Team: 'JOTS'
+         P0 Run0: text='6.d' bold=None size=None
+  T8 R5 | Cell0: '6.e' | Steps: '-After loading, perform pre-dispatch checks, including tarpa' | Team: 'JOTS'
+         P0 Run0: text='6.e' bold=None size=None
+  T8 R6 | Cell0: '6.f' | Steps: '-Post-dispatch, track the vehicle on TMS and manually follow' | Team: 'JOTS'
+         P0 Run0: text='6.f' bold=None size=None
+
+--- Table 9 (7 rows x 5 cols) ---
+  T9 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=None
+  T9 R1 | Cell0: '7.' | Steps: 'Receive freight order details generated by Biz-ops.
+DO is sh' | Team: 'JOTS'
+         P0 Run0: text='7.' bold=None size=None
+  T9 R2 | Cell0: '7.a.' | Steps: 'Receive system-generated or Zoho-generated DO from JOTS team' | Team: 'JOTS'
+         P0 Run0: text='7.a.' bold=None size=None
+  T9 R3 | Cell0: '7.b.' | Steps: 'Generate: Invoice (TC - Test Certificate), E-Way Bill for in' | Team: 'Plant Operations'
+         P0 Run0: text='7.b.' bold=None size=None
+  T9 R4 | Cell0: '7.c.' | Steps: 'Push Invoice Registration Portal (IRP) data and generate E-W' | Team: 'Plant Operations'
+         P0 Run0: text='7.c.' bold=None size=None
+  T9 R5 | Cell0: '7.d.' | Steps: 'Complete ERP /Zoho invoice approval process.' | Team: 'Plant Operations'
+         P0 Run0: text='7.d.' bold=None size=None
+  T9 R6 | Cell0: '7.e.' | Steps: 'Conduct final dispatch with Tax Challan, Test Certificate , ' | Team: 'Plant Operations'
+         P0 Run0: text='7.e.' bold=None size=None
+
+--- Table 10 (3 rows x 5 cols) ---
+  T10 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=None
+  T10 R1 | Cell0: '8.' | Steps: 'DO Release & System Integration: Once Delivery Order (DO) re' | Team: 'Biz-ops'
+         P0 Run0: text='8.' bold=None size=None
+  T10 R2 | Cell0: '' | Steps: '' | Team: ''
+
+--- Table 11 (5 rows x 5 cols) ---
+  T11 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=None
+  T11 R1 | Cell0: '10.' | Steps: 'Vehicle Arrival and Weighment: Ensure proper coordination an' | Team: 'Plant Operations'
+         P0 Run0: text='10.' bold=None size=None
+  T11 R2 | Cell0: '10.a.' | Steps: 'Vehicle Arrival: Plant Ops monitor vehicle arrival at plant.' | Team: 'Plant Operations / JOTS'
+         P0 Run0: text='10.a.' bold=None size=None
+  T11 R3 | Cell0: '10.b.' | Steps: 'Loading Advice Verification: Loading advice prepared by CM t' | Team: 'Plant Operations'
+         P0 Run0: text='10.b.' bold=None size=None
+  T11 R4 | Cell0: '10.c.' | Steps: 'Vehicle Inspection (Post Internal Weighment): Conduct thorou' | Team: 'Plant Operations'
+         P0 Run0: text='10.c.' bold=None size=None
+
+--- Table 12 (8 rows x 5 cols) ---
+  T12 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T12 R1 | Cell0: '11.' | Steps: 'Loading Process: Load materials strictly as per the Loading ' | Team: 'Plant Operations'
+         P0 Run0: text='11.' bold=None size=127000
+  T12 R2 | Cell0: '11.a.' | Steps: 'Load materials strictly per Loading Advice. Ensure loading d' | Team: 'Plant Operations'
+         P0 Run0: text='11.a.' bold=None size=127000
+  T12 R3 | Cell0: '11.b.' | Steps: 'Perform weighment for each SKU loaded. Record weights accura' | Team: 'Plant Operations'
+         P0 Run0: text='11.b.' bold=None size=127000
+  T12 R4 | Cell0: '11.c.' | Steps: 'Post-Loading Steps: After loading, secure material using 5-m' | Team: 'Plant Operations'
+         P0 Run0: text='11.c.' bold=None size=127000
+  T12 R5 | Cell0: '11 D' | Steps: 'MTC generation through Zoho after entering material details ' | Team: 'Plant Operations'
+         P0 Run0: text='11 D' bold=None size=127000
+  T12 R6 | Cell0: '11 D' | Steps: 'LR Copy Generation' | Team: 'JOTS'
+         P0 Run0: text='11 D' bold=None size=127000
+  T12 R7 | Cell0: '11 E' | Steps: 'Handing over documents to Vehicle driver- Invoice, MTC, E-Wa' | Team: 'Plant Operations'
+         P0 Run0: text='11 E' bold=None size=127000
+
+--- Table 13 (5 rows x 5 cols) ---
+  T13 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T13 R1 | Cell0: '12.' | Steps: 'GRN & Invoicing Post-Final Weighment: Following successful c' | Team: 'Plant Operations'
+         P0 Run0: text='12.' bold=None size=127000
+  T13 R2 | Cell0: '12.a.' | Steps: 'Collect Seller Invoice: PB Plant Ops team must collect selle' | Team: 'Plant Operations'
+         P0 Run0: text='12.a.' bold=None size=127000
+  T13 R3 | Cell0: '12.b.' | Steps: 'Perform GRN in Zoho Books: Upon receiving seller invoice, pe' | Team: 'Plant Operations'
+         P0 Run0: text='12.b.' bold=None size=127000
+  T13 R4 | Cell0: '12.c.' | Steps: 'Validate GRN vs Seller Invoice: 
+Ensure GRN details strictly' | Team: 'Plant Operations'
+         P0 Run0: text='12.c.' bold=None size=127000
+
+--- Table 14 (5 rows x 5 cols) ---
+  T14 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T14 R1 | Cell0: '13.' | Steps: 'Invoice and E-Way Bill Generation: PB-Plant Ops team respons' | Team: 'Plant Operations'
+         P0 Run0: text='13.' bold=None size=127000
+  T14 R2 | Cell0: '13.a.' | Steps: 'Create JODL Invoice in Zoho Books: Search Sales Order and co' | Team: 'Plant Operations'
+         P0 Run0: text='13.a.' bold=None size=127000
+  T14 R3 | Cell0: '13.b.' | Steps: 'Fill Mandatory Bills Section Fields: Following fields must b' | Team: 'Plant Operations'
+         P0 Run0: text='13.b.' bold=None size=127000
+  T14 R4 | Cell0: '13.c.' | Steps: 'IRP Push and E-Way Bill Generation: After submitting invoice' | Team: 'Plant Operations'
+         P0 Run0: text='13.c.' bold=None size=127000
+
+--- Table 15 (5 rows x 5 cols) ---
+  T15 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T15 R1 | Cell0: '14.' | Steps: 'ERP Invoice Approval: After receiving JODL invoice, Biz-Ops ' | Team: 'Biz-ops'
+         P0 Run0: text='14.' bold=None size=127000
+  T15 R2 | Cell0: '14.a.' | Steps: 'Pre-Approval Validation Checks:
+• Invoice Value
+• Grade and ' | Team: 'Biz-ops'
+         P0 Run0: text='14.a.' bold=None size=127000
+  T15 R3 | Cell0: '14.b.' | Steps: 'Approve in JOPL ERP: After validation checks pass, approve i' | Team: 'Biz-ops'
+         P0 Run0: text='14.b.' bold=None size=127000
+  T15 R4 | Cell0: '14.c.' | Steps: 'Monitor Posting Status: Monitor posting status to ensure it ' | Team: 'Biz-ops'
+         P0 Run0: text='14.c.' bold=None size=127000
+
+--- Table 16 (5 rows x 5 cols) ---
+  T16 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T16 R1 | Cell0: '15.' | Steps: 'Manual Shipment Creation Conditions: If shipment is not auto' | Team: 'Biz-ops'
+         P0 Run0: text='15.' bold=None size=127000
+  T16 R2 | Cell0: '15.a.' | Steps: 'Conditions for Manual Creation: Determine if manual shipment' | Team: 'Biz-ops'
+         P0 Run0: text='15.a.' bold=None size=127000
+  T16 R3 | Cell0: '15.b.' | Steps: 'Create Shipment in ERP: Copy Order ID mentioned in invoice. ' | Team: 'Biz-ops'
+         P0 Run0: text='15.b.' bold=None size=127000
+  T16 R4 | Cell0: '15.c.' | Steps: 'Finalize Shipment: Change Shipment Status to "Ready to Ship"' | Team: 'Biz-ops'
+         P0 Run0: text='15.c.' bold=None size=127000
+
+--- Table 17 (4 rows x 5 cols) ---
+  T17 R0 | Cell0: 'Activity' | Steps: 'Steps' | Team: 'Team'
+         P0 Run0: text='Activity' bold=None size=127000
+  T17 R1 | Cell0: '16.' | Steps: 'Order Short Closure: Process for closing orders with quantit' | Team: 'Biz-ops'
+         P0 Run0: text='16.' bold=None size=127000
+  T17 R2 | Cell0: '16.a.' | Steps: 'Manual Short Closure (<90%): Once invoice uploaded in ERP sy' | Team: 'Biz-ops'
+         P0 Run0: text='16.a.' bold=None size=127000
+  T17 R3 | Cell0: '16.b.' | Steps: 'Auto Short Closure (≥95%): If delivered quantity is above 95' | Team: 'Biz-ops'
+         P0 Run0: text='16.b.' bold=None size=127000
+
+================================================================================
+PARAGRAPHS WITH ACTIVITY NUMBER REFERENCES
+================================================================================
+Para 7: Section A: FOR Orders (Freight On Road)
+Para 8: Section A.1: Special Cases - RRP Breach Approvals
+Para 9: Section A.2: Special Cases - Delivery Instruction Changes
+Para 10: Section A.3: Special Cases - Channel Finance Orders
+Para 11: Section B: Ex-works Orders
+Para 12: Section C: Project / PTR Orders
+Para 14: Section D - Phase 1: Planning Team Coordination
+Para 15: Section D - Phase 2: Biz-ops Team Execution
+Para 16: Section D - Phase 3: JOTS Transportation
+Para 18: Section D - Phase 4: Plant Operations (Dispatch)
+Para 19: Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]
+Para 27: IMPORTANT: Activity 1.f (Freight Approval Request) has been REMOVED from this section as it is not required for retail FOR orders. Order ID is generat
+Para 29: Note: Original activities 1.f, 1.f.i, and 1.f.ii (Freight Approval workflow) have been removed as they are not part of the retail FOR order process. T
+Para 31: Section A.1: Special Cases - Price Breach Approval (Price going below distributor list price)
+Para 42: Section A.2: Special Cases - Delivery Instruction Changes
+Para 48: Section A.3: Special Cases - Channel Finance Orders
+Para 57: Section D - Phase 1: Planning Team Coordination
+Para 60: Section D - Phase 2: Biz-ops Team Execution
+Para 63: Section D - Phase 3: JOTS Transportation
+Para 68: Section D - Phase 4: Plant Operations (Dispatch)
+Para 70: Section D - Phase 5: Post-Dispatch Activities (GRN & Invoice Posting) [NEW]
+Para 74: Activity 10: Vehicle Arrival & Weighment Coordination-
+Para 80: Activity 11: Loading Process Execution
+Para 84: Activity 12: GRN Entry in Zoho Books (PB Plant Ops)
+Para 87: Activity 13: Invoice & E-Way Bill Generation
+Para 90: Activity 14: ERP Invoice Approval (Biz-Ops)
+Para 93: Activity 15: Manual Shipment Creation (If Auto Failure)
+Para 109: Activity 16: Order Short Closure (Manual & Auto)

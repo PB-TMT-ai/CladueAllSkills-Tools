@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-02-27T18:39:32.569394",
+  "generator": "tools/generate_pt_sop_excel.py",
+  "product_line": "Pipes & Tubes",
+  "files": {
+    "One_Helix_Pipes_Tubes_SOP_REVISED_FINAL 1.2.docx": {
+      "hash": "c7a089ea92c0ef89d0d7ce7e95e7f459",
+      "size": 890532
+    },
+    "SOP for Dispatch Process- Pipes & Tubes.docx": {
+      "hash": "d86b985bd923b11070fec7ce08d2d7ee",
+      "size": 53904
+    },
+    "SOP for DO Generation for Dispatch process.docx": {
+      "hash": "695b52697c39821a75fb58bb0bb93975",
+      "size": 53665
+    },
+    "SOP for final pipe inspection for P & T_3.docx": {
+      "hash": "d61b73aab45bd3f79aee6a683447802f",
+      "size": 51864
+    },
+    "SOP for Finishing Activities.docx": {
+      "hash": "b73b372d61c6de961b1cf1ca7728facc",
+      "size": 435820
+    },
+    "SOP for incoming coil inspection for P & T_1.docx": {
+      "hash": "c1bef80df97963649ad62b4f7b16656a",
+      "size": 47689
+    },
+    "SOP for incoming coil receiving for P & T.docx": {
+      "hash": "f524d7ba00d9b9240746b853de78ffac",
+      "size": 55067
+    },
+    "SOP for Invoicing process.docx": {
+      "hash": "c83479daff5dc00e9d3832884de341f8",
+      "size": 55205
+    },
+    "SOP for Joint Inspection for P & T_4.docx": {
+      "hash": "040dda37c3800daeebebcf6d3551731e",
+      "size": 46920
+    },
+    "SOP for PDI of P&T_12.docx": {
+      "hash": "925849e3c649dd6bfdec8061e7d716f3",
+      "size": 45563
+    },
+    "SOP for Rolling Plan.docx": {
+      "hash": "4b4f1403c2b3ca1fc5543f27c3eeec48",
+      "size": 53061
+    },
+    "SOP for slitted coil inspection for P & T_2.docx": {
+      "hash": "e6dad64da566a72953b96578418a9d7a",
+      "size": 47618
+    },
+    "SOP for Test Certificate Generation P&T_13.docx": {
+      "hash": "9277c98136930e371877f06a1c6b5b60",
+      "size": 46821
+    },
+    "SOP for Vehilce Placement.docx": {
+      "hash": "866df43ecf834599a3fdd7aac8067fc7",
+      "size": 53054
+    },
+    "SOP_P & T Tensile Test joint inspection P & T_5.docx": {
+      "hash": "ca14b3b34b63004c0cc2d1f05cf6e43f",
+      "size": 50480
+    },
+    "SOP_P & T_Bend Test_7.docx": {
+      "hash": "3c1f56fd2e9b45e9468e8bd0a270598e",
+      "size": 47188
+    },
+    "SOP_P & T_Dimension Test_9.docx": {
+      "hash": "25305d73eed48675d474fdd2755930e6",
+      "size": 83567
+    },
+    "SOP_P & T_Flattening Test_8.docx": {
+      "hash": "ed1f106d58a23b06f5b9f66a589c8cb6",
+      "size": 46970
+    },
+    "SOP_P&T_Handling of NC products_15.docx": {
+      "hash": "e2be1e49cc519c2cfbdd501ce8a99292",
+      "size": 47558
+    },
+    "SOP_P&T_Traceability and identification products_14.docx": {
+      "hash": "6bd1d180e4a10b52d3a0e222f32f8f80",
+      "size": 43819
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "Bash(start \"\" \"D:\\\\UttarPradeshMaps\\\\up_district_potential_map.html\")",
+      "Bash(start \"\" \"D:\\\\UttarPradeshMaps\\\\up_distributor_territory_map.html\")",
+      "Bash(start \"\" \"D:\\\\UttarPradeshMaps\\\\v2\\\\up_district_potential_map_v2.html\")",
+      "Bash(start \"\" \"D:\\\\UttarPradeshMaps\\\\v2\\\\up_distributor_territory_map_v2.html\")",
+      "Bash(dir:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(cd:*)",
+      "WebFetch(domain:www.svgrepo.com)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "Bash(wc -l /d/UttarPradeshMaps/*districts.geojson /d/UttarPradeshMaps/*/*districts.geojson)",
+      "Bash(ls /d/UttarPradeshMaps/*.geojson)",
+      "mcp__acfde1b5-ae6a-48c0-83c9-d228c51916d0__start-editing-transaction",
+      "Bash(sort -k2)"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 list)",
+      "Bash(xargs cat)",
+      "Bash(timeout 10 find /tmp -name \"*b3b8ffa*\" -type f)",
+      "Bash(python -c \":*)",
+      "Bash(ls -lh \"D:\\\\Price Difference\"/*.xlsx)",
+      "Bash(python -c \"import openpyxl; wb = openpyxl.load_workbook\\(''D:/Price Difference/Price difference calculations - Feb 26.xlsx'', read_only=True, data_only=True\\); print\\(''\\\\n''.join\\(wb.sheetnames\\)\\); wb.close\\(\\)\")",
+      "Bash(python tools/run_all.py \"Price difference calculations - Feb 26.xlsx\" \"Feb-26\")"
+    ]
+  }
+}

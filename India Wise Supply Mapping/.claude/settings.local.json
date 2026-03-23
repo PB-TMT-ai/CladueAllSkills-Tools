@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(findstr:*)",
+      "Bash(find:*)",
+      "Bash(start \"\" \"D:\\\\India Wise Supply Mapping\\\\.tmp\\\\maps\\\\consolidated_supply_map_v7.html\")",
+      "Bash(powershell -command:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}

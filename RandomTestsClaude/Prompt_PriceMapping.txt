@@ -1,0 +1,88 @@
+You are an expert data visualization engineer and presentation designer for the Indian steel industry. Build a multi-slide interactive dashboard — one slide per market — showing all brand-wise TMT steel prices at both distributor and dealer level, plus gap vs. TISCON (TSL benchmark) as of 9th Mar '26.
+MARKETS (9 slides total):
+Delhi (DL) · Haryana (HR) · Jaipur · Kanpur · Chandigarh · Ludhiana · Dehradun · Shimla · Jammu
+ALL BRANDS TO DISPLAY (extract all rows from the attached data table):
+
+Benchmark rows (top section): Competitor/market reference brands as visible in table header rows
+JSW One Fe 550D — project grade
+JSW One Fe 550 — standard retail
+
+
+⚠️ Extract every brand row present in the image exactly — do not skip any. For each brand, capture: Distributor Level Price, Dealer Level Price, Gap with TSL
+
+
+SLIDE STRUCTURE (replicate for all 9 markets):
+┌──────────────────────────────────────────────────────────────┐
+│  📍 [MARKET NAME]                        As on 9th Mar '26  │
+│──────────────────────────────────────────────────────────────│
+│                                                              │
+│  BRAND COMPARISON TABLE                                      │
+│  ┌──────────────┬────────────┬────────────┬───────────────┐  │
+│  │ Brand        │ Distr (₹) │ Dealer (₹)│ Gap vs TISCON │  │
+│  ├──────────────┼────────────┼────────────┼───────────────┤  │
+│  │ [Brand 1]    │ XX,XXX     │ XX,XXX     │ ▼ X,XXX 🔴   │  │
+│  │ [Brand 2]    │ XX,XXX     │ XX,XXX     │ ▼ X,XXX 🟡   │  │
+│  │ JSW Fe 550D  │ XX,XXX     │ XX,XXX     │ ▼ X,XXX 🔴   │  │
+│  │ JSW Fe 550   │ XX,XXX     │ XX,XXX     │ ▼ X,XXX 🟡   │  │
+│  └──────────────┴────────────┴────────────┴───────────────┘  │
+│                                                              │
+│  [Grouped bar chart — all brands, Distr vs Dealer vs TISCON] │
+│                                                              │
+│  JSW BRANDS SPOTLIGHT                                        │
+│  ┌──────────────────────┐  ┌──────────────────────────────┐ │
+│  │ Fe 550D Gap: ▼₹X,XXX │  │ Fe 550 Gap:  ▼₹X,XXX        │ │
+│  │ STATUS: 🔴 Action     │  │ STATUS: 🟡 Watch             │ │
+│  └──────────────────────┘  └──────────────────────────────┘ │
+└──────────────────────────────────────────────────────────────┘
+GROUPED BAR CHART SPEC (per slide):
+
+X-axis: All brands present in that market
+Y-axis: Price in ₹
+Bar groups per brand: Distributor | Dealer | TISCON Reference
+JSW brand bars highlighted in JSW Red #E8272A
+Competitor bars in muted #4A6080
+TISCON reference line as a horizontal dashed benchmark line
+
+GAP BADGE LOGIC (apply per brand row):
+
+🟢 Competitive: Gap ≤ ₹2,000
+🟡 Watch: Gap ₹2,001–₹4,000
+🔴 Action Needed: Gap > ₹4,000
+Gap direction: ▼ = JSW below TISCON | ▲ = JSW above TISCON
+
+PRICE LEVEL TOGGLE (top-right of each slide):
+
+[ Distributor ] [ Dealer ] toggle button
+Switches the bar chart and table values between the two levels simultaneously
+Default view: Dealer level
+
+
+NAVIGATION:
+
+Left / Right arrow buttons between market slides
+Market pill-tabs at top as quick-jump: DL · HR · JPR · KNP · CHD · LDH · DDN · SML · JMU
+Slide counter: "3 / 9 — Jaipur"
+Keyboard left/right arrow support
+
+SUMMARY SLIDE (slide 10 — final):
+
+Ranked heatmap table: All markets × All brands, colored by gap severity
+Rows = Brands | Columns = Markets
+Cell value = Dealer-level gap vs TISCON
+Call-out: "Markets needing immediate realignment for JSW brands"
+Second call-out: "Markets where JSW is most competitive vs field"
+
+
+DESIGN SPECS:
+
+Background: Deep navy #0D1B2A
+Card/table background: #1A2B3C
+JSW brand highlight: #E8272A
+Competitor bars: #4A6080
+TISCON reference line: #F5A623 dashed
+Competitive gap: #27AE60
+White text, clean sans-serif (Inter or system-ui)
+Smooth fade transitions between slides
+Fully responsive, single .jsx file, React + Recharts
+
+OUTPUT: One self-contained React .jsx file. All brands, all 9 markets, distributor + dealer data fully hardcoded from the attached table image. No external API calls. Executive presentation ready.

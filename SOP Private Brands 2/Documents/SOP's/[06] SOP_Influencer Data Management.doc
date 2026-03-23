@@ -1,0 +1,410 @@
+Date: Thu, 19 Feb 2026 11:22:24 +0000 (UTC)
+Message-ID: <1889528677.41.1771500144095@f78a8171239f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1094195634.1771500144095"
+
+------=_Part_40_1094195634.1771500144095
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>4- Influencer data management SOP - Private Brands</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>4- Influencer data management SOP - Private Brands</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-4-InfluencerdatamanagementSOP-PrivateBrands-Purposeand=
+Scope">
+<style>[data-colorid=3Dxm0jhrnhra]{color:#403294} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dxm0jhrnhra]{color:#796bcd}[data-colorid=3Dz8p4bdklan]{c=
+olor:#403294} html[data-color-mode=3Ddark] [data-colorid=3Dz8p4bdklan]{colo=
+r:#796bcd}[data-colorid=3Dt6z2h0xqzi]{color:#403294} html[data-color-mode=
+=3Ddark] [data-colorid=3Dt6z2h0xqzi]{color:#796bcd}[data-colorid=3Dghba5sk3=
+ke]{color:#403294} html[data-color-mode=3Ddark] [data-colorid=3Dghba5sk3ke]=
+{color:#796bcd}</style><strong>Purpose and Scope</strong></h2>
+<p>To align, manage and track influencer meets across distributor and retai=
+ler locations, in order to educate and onboard potential partners and incre=
+ase sales reach.</p>
+<p><strong>Handover timeline: PB -&gt;BizOps: </strong><time datetime=3D"20=
+25-09-08" class=3D"date-past">08 Sep 2025</time></p>
+<h2 id=3D"id-4-InfluencerdatamanagementSOP-PrivateBrands-Stakeholders"><str=
+ong>Stakeholders</strong></h2>
+<p>Data sourcing - Sales</p>
+<p>Sourcing channel - WhatsApp</p>
+<p>Data management - BizOps</p>
+<p>Data management platform - Excel</p>
+<h2 id=3D"id-4-InfluencerdatamanagementSOP-PrivateBrands-Steps"><strong>Ste=
+ps</strong></h2>
+<ol start=3D"1">
+<li>
+<p>For planned meets, Sales team to update primary details of influencer me=
+ets planned in the <a class=3D"external-link" href=3D"https://jsw-my.sharep=
+oint.com/:x:/r/personal/kunal_jani_jsw_in/_layouts/15/Doc.aspx?sourcedoc=3D=
+%7B83DF62F5-B42A-43F8-A626-0FB7948B4710%7D&amp;file=3DFY%2026%20Q2%20-%20ch=
+annel%20growth%20plan.xlsx&amp;fromShare=3Dtrue&amp;action=3Ddefault&amp;mo=
+bileredirect=3Dtrue" rel=3D"nofollow">Channel Growth Plan</a> sheet, fillin=
+g in from column A-&gt;M as below:</p>
+<ol start=3D"1">
+<li>
+<p>Sr. No.</p></li>
+<li>
+<p>Account Sf ID of Dealer</p></li>
+<li>
+<p>Name of the Dealer</p></li>
+<li>
+<p>State</p></li>
+<li>
+<p>Zone</p></li>
+<li>
+<p>District</p></li>
+<li>
+<p>Distributor Name</p></li>
+<li>
+<p>Account Owner</p></li>
+<li>
+<p>Responsible KAM/SM/TM</p></li>
+<li>
+<p>Pin code</p></li>
+<li>
+<p>Onboarded Dealer Month</p></li>
+<li>
+<p>Type of Meet to be conducted</p></li>
+<li>
+<p>#Meet</p></li>
+</ol></li>
+<li>
+<p>For unplanned meets, BizOps to fill the above details manually, referrin=
+g to PB WA group- "JSW One PB tmt sales".</p></li>
+<li>
+<p>Sales team to update remarks from column N-&gt;Q, mentioning the meeting=
+ status, remarks if not planned, and general remarks related to the meeting=
+.</p></li>
+<li>
+<p>Post the sales team=E2=80=99s remarks, PB HO team user to update their r=
+emarks in column R, updating status if the dealer in now registered, meetin=
+g needs to be rescheduled, or other dealers need to be approached etc.</p><=
+/li>
+<li>
+<p>Once a meet is successful, BizOps to record further details of actual me=
+etings from S-&gt;W as required in the same sheet.</p></li>
+<li>
+<p>For meets that are successful, Sales team needs to capture the attendanc=
+e and details of all attendees in the <em><span data-colorid=3D"ghba5sk3ke"=
+>required format</span></em> on <em><span data-colorid=3D"z8p4bdklan">Whats=
+App group </span></em><span data-colorid=3D"t6z2h0xqzi">'JSW One PB tmt sal=
+es'</span><em><span data-colorid=3D"xm0jhrnhra">, </span></em>and share wit=
+h the BizOps team, to be captured in a separate tracker- <a class=3D"extern=
+al-link" href=3D"https://jsw-my.sharepoint.com/:x:/r/personal/supriya_shara=
+n_jsw_in/_layouts/15/Doc.aspx?sourcedoc=3D%7BA64A80F3-5C53-4C99-975D-B9563C=
+06DFBA%7D&amp;file=3DNew%20-%20Influencer%20Data%20Format.xlsx&amp;fromShar=
+e=3Dtrue&amp;action=3Ddefault&amp;mobileredirect=3Dtrue" rel=3D"nofollow">I=
+nfluencer meets data</a>.</p></li>
+<li>
+<p>BizOps to verify attendance vs attendees data shared by sales.</p></li>
+<li>
+<p>The above captured data to be pushed to Salesforce every month-end by Pr=
+oduct team to be updated in the Customer Master, for Sales team=E2=80=99s f=
+uture perusal.</p></li>
+</ol>
+<p><strong>TAT for data updation:</strong></p>
+<p>24 hrs from details shared on WhatsApp</p>
+<h2 id=3D"id-4-InfluencerdatamanagementSOP-PrivateBrands-ReviewandSign-off"=
+><strong>Review and Sign-off</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"21=
+f15342-da2b-4004-adb6-bc1c4c01bc8a" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 128.0px;">
+<col style=3D"width: 181.0px;">
+<col style=3D"width: 142.0px;">
+<col style=3D"width: 108.0px;">
+<col style=3D"width: 195.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Name</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Role</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Sign-off</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Date</p></th>
+<th data-highlight-colour=3D"#f0f1f2" class=3D"confluenceTh">
+<p>Remarks</p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Sourabh Maity</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>GM- Operations</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Megha Modi</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Head- Operations</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Karan Seth</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Private Brands</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Shubhenjit Chaudhuri</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Private Brands</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_40_1094195634.1771500144095--
