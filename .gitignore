@@ -78,6 +78,7 @@ marketing/
 
 # Temporary files
 tmp/
+.tmp/
 temp/
 *.tmp
 *.bak
